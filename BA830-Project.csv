@@ -1,0 +1,1771 @@
+Person_id,Age,Currently living,Gender,outcome_plate,outcome_food,outcome_question,food_name,Treatment
+1,46-55,Europe,Woman,1,1,1,Burger,0
+1,46-55,Europe,Woman,1,1,1,Taco,0
+1,46-55,Europe,Woman,1,0,0,Fried Chicken,0
+1,46-55,Europe,Woman,0,0,0,Salmon,0
+1,46-55,Europe,Woman,1,1,1,Pasta,0
+1,46-55,Europe,Woman,0,1,1,Steak,0
+1,46-55,Europe,Woman,0,1,1,Dumpling,0
+1,46-55,Europe,Woman,1,1,1,Sushi,0
+1,46-55,Europe,Woman,0,0,0,Fried Rice,0
+1,46-55,Europe,Woman,1,0,0,Salad,0
+2,16-25,Europe,Woman,0,0,0,Burger,0
+2,16-25,Europe,Woman,1,1,1,Taco,0
+2,16-25,Europe,Woman,0,1,1,Fried Chicken,0
+2,16-25,Europe,Woman,1,1,1,Salmon,0
+2,16-25,Europe,Woman,1,1,1,Pasta,0
+2,16-25,Europe,Woman,1,0,0,Steak,0
+2,16-25,Europe,Woman,0,1,1,Dumpling,0
+2,16-25,Europe,Woman,1,1,1,Sushi,0
+2,16-25,Europe,Woman,0,0,0,Fried Rice,0
+2,16-25,Europe,Woman,1,0,0,Salad,0
+3,26-35,North America/Central America,Man,1,1,1,Burger,0
+3,26-35,North America/Central America,Man,1,1,1,Taco,0
+3,26-35,North America/Central America,Man,0,1,1,Fried Chicken,0
+3,26-35,North America/Central America,Man,0,0,0,Salmon,0
+3,26-35,North America/Central America,Man,0,0,0,Pasta,0
+3,26-35,North America/Central America,Man,1,0,0,Steak,0
+3,26-35,North America/Central America,Man,1,0,0,Dumpling,0
+3,26-35,North America/Central America,Man,1,1,1,Sushi,0
+3,26-35,North America/Central America,Man,0,0,0,Fried Rice,0
+3,26-35,North America/Central America,Man,1,0,0,Salad,0
+4,26-35,Asia/Middle east,Man,0,0,0,Burger,0
+4,26-35,Asia/Middle east,Man,0,0,0,Taco,0
+4,26-35,Asia/Middle east,Man,1,0,0,Fried Chicken,0
+4,26-35,Asia/Middle east,Man,0,0,0,Salmon,0
+4,26-35,Asia/Middle east,Man,0,0,0,Pasta,0
+4,26-35,Asia/Middle east,Man,1,0,0,Steak,0
+4,26-35,Asia/Middle east,Man,0,1,1,Dumpling,0
+4,26-35,Asia/Middle east,Man,1,1,1,Sushi,0
+4,26-35,Asia/Middle east,Man,1,1,1,Fried Rice,0
+4,26-35,Asia/Middle east,Man,1,0,0,Salad,0
+5,26-35,North America/Central America,Man,1,1,1,Burger,0
+5,26-35,North America/Central America,Man,1,1,1,Taco,0
+5,26-35,North America/Central America,Man,1,0,0,Fried Chicken,0
+5,26-35,North America/Central America,Man,1,1,1,Salmon,0
+5,26-35,North America/Central America,Man,0,0,0,Pasta,0
+5,26-35,North America/Central America,Man,0,1,1,Steak,0
+5,26-35,North America/Central America,Man,0,1,1,Dumpling,0
+5,26-35,North America/Central America,Man,1,1,1,Sushi,0
+5,26-35,North America/Central America,Man,0,0,0,Fried Rice,0
+5,26-35,North America/Central America,Man,0,1,1,Salad,0
+6,26-35,Asia/Middle east,Man,0,0,0,Burger,0
+6,26-35,Asia/Middle east,Man,0,0,0,Taco,0
+6,26-35,Asia/Middle east,Man,1,0,0,Fried Chicken,0
+6,26-35,Asia/Middle east,Man,1,1,1,Salmon,0
+6,26-35,Asia/Middle east,Man,0,0,0,Pasta,0
+6,26-35,Asia/Middle east,Man,1,0,0,Steak,0
+6,26-35,Asia/Middle east,Man,0,1,1,Dumpling,0
+6,26-35,Asia/Middle east,Man,0,0,0,Sushi,0
+6,26-35,Asia/Middle east,Man,0,0,0,Fried Rice,0
+6,26-35,Asia/Middle east,Man,0,1,1,Salad,0
+7,56-65,Asia/Middle east,Man,0,0,0,Burger,0
+7,56-65,Asia/Middle east,Man,0,0,0,Taco,0
+7,56-65,Asia/Middle east,Man,0,1,1,Fried Chicken,0
+7,56-65,Asia/Middle east,Man,0,0,0,Salmon,0
+7,56-65,Asia/Middle east,Man,0,0,0,Pasta,0
+7,56-65,Asia/Middle east,Man,0,1,1,Steak,0
+7,56-65,Asia/Middle east,Man,1,0,0,Dumpling,0
+7,56-65,Asia/Middle east,Man,0,0,0,Sushi,0
+7,56-65,Asia/Middle east,Man,1,1,1,Fried Rice,0
+7,56-65,Asia/Middle east,Man,1,0,0,Salad,0
+8,16-25,Asia/Middle east,Man,1,1,1,Burger,0
+8,16-25,Asia/Middle east,Man,0,0,0,Taco,0
+8,16-25,Asia/Middle east,Man,0,1,1,Fried Chicken,0
+8,16-25,Asia/Middle east,Man,0,0,0,Salmon,0
+8,16-25,Asia/Middle east,Man,1,1,1,Pasta,0
+8,16-25,Asia/Middle east,Man,1,0,0,Steak,0
+8,16-25,Asia/Middle east,Man,1,0,0,Dumpling,0
+8,16-25,Asia/Middle east,Man,1,1,1,Sushi,0
+8,16-25,Asia/Middle east,Man,0,0,0,Fried Rice,0
+8,16-25,Asia/Middle east,Man,1,0,0,Salad,0
+9,16-25,Asia/Middle east,Woman,0,0,0,Burger,0
+9,16-25,Asia/Middle east,Woman,0,0,0,Taco,0
+9,16-25,Asia/Middle east,Woman,1,0,0,Fried Chicken,0
+9,16-25,Asia/Middle east,Woman,1,1,1,Salmon,0
+9,16-25,Asia/Middle east,Woman,0,0,0,Pasta,0
+9,16-25,Asia/Middle east,Woman,0,1,1,Steak,0
+9,16-25,Asia/Middle east,Woman,0,1,1,Dumpling,0
+9,16-25,Asia/Middle east,Woman,0,0,0,Sushi,0
+9,16-25,Asia/Middle east,Woman,0,0,0,Fried Rice,0
+9,16-25,Asia/Middle east,Woman,1,0,0,Salad,0
+10,16-25,North America/Central America,Man,0,0,0,Burger,0
+10,16-25,North America/Central America,Man,0,0,0,Taco,0
+10,16-25,North America/Central America,Man,1,0,0,Fried Chicken,0
+10,16-25,North America/Central America,Man,0,0,0,Salmon,0
+10,16-25,North America/Central America,Man,1,1,1,Pasta,0
+10,16-25,North America/Central America,Man,1,0,0,Steak,0
+10,16-25,North America/Central America,Man,0,1,1,Dumpling,0
+10,16-25,North America/Central America,Man,1,1,1,Sushi,0
+10,16-25,North America/Central America,Man,0,0,0,Fried Rice,0
+10,16-25,North America/Central America,Man,1,0,0,Salad,0
+11,16-25,Asia/Middle east,Man,1,1,1,Burger,0
+11,16-25,Asia/Middle east,Man,1,1,1,Taco,0
+11,16-25,Asia/Middle east,Man,1,0,0,Fried Chicken,0
+11,16-25,Asia/Middle east,Man,1,1,1,Salmon,0
+11,16-25,Asia/Middle east,Man,1,1,1,Pasta,0
+11,16-25,Asia/Middle east,Man,1,0,0,Steak,0
+11,16-25,Asia/Middle east,Man,1,0,0,Dumpling,0
+11,16-25,Asia/Middle east,Man,0,0,0,Sushi,0
+11,16-25,Asia/Middle east,Man,0,0,0,Fried Rice,0
+11,16-25,Asia/Middle east,Man,1,1,1,Salad,0
+12,46-55,Asia/Middle east,Woman,0,0,0,Burger,0
+12,46-55,Asia/Middle east,Woman,0,0,0,Taco,0
+12,46-55,Asia/Middle east,Woman,1,0,0,Fried Chicken,0
+12,46-55,Asia/Middle east,Woman,0,0,0,Salmon,0
+12,46-55,Asia/Middle east,Woman,1,1,1,Pasta,0
+12,46-55,Asia/Middle east,Woman,1,0,0,Steak,0
+12,46-55,Asia/Middle east,Woman,0,1,1,Dumpling,0
+12,46-55,Asia/Middle east,Woman,1,1,1,Sushi,0
+12,46-55,Asia/Middle east,Woman,0,0,0,Fried Rice,0
+12,46-55,Asia/Middle east,Woman,0,1,1,Salad,0
+13,26-35,North America/Central America,Woman,0,0,0,Burger,0
+13,26-35,North America/Central America,Woman,1,1,1,Taco,0
+13,26-35,North America/Central America,Woman,0,1,1,Fried Chicken,0
+13,26-35,North America/Central America,Woman,0,0,0,Salmon,0
+13,26-35,North America/Central America,Woman,0,0,0,Pasta,0
+13,26-35,North America/Central America,Woman,1,0,0,Steak,0
+13,26-35,North America/Central America,Woman,0,1,1,Dumpling,0
+13,26-35,North America/Central America,Woman,0,0,0,Sushi,0
+13,26-35,North America/Central America,Woman,0,0,0,Fried Rice,0
+13,26-35,North America/Central America,Woman,1,0,0,Salad,0
+14,26-35,North America/Central America,Woman,1,1,1,Burger,0
+14,26-35,North America/Central America,Woman,0,0,0,Taco,0
+14,26-35,North America/Central America,Woman,1,0,0,Fried Chicken,0
+14,26-35,North America/Central America,Woman,0,0,0,Salmon,0
+14,26-35,North America/Central America,Woman,1,1,1,Pasta,0
+14,26-35,North America/Central America,Woman,1,0,0,Steak,0
+14,26-35,North America/Central America,Woman,1,0,0,Dumpling,0
+14,26-35,North America/Central America,Woman,1,1,1,Sushi,0
+14,26-35,North America/Central America,Woman,1,1,1,Fried Rice,0
+14,26-35,North America/Central America,Woman,1,0,0,Salad,0
+15,26-35,North America/Central America,Woman,0,0,0,Burger,0
+15,26-35,North America/Central America,Woman,1,1,1,Taco,0
+15,26-35,North America/Central America,Woman,1,0,0,Fried Chicken,0
+15,26-35,North America/Central America,Woman,0,0,0,Salmon,0
+15,26-35,North America/Central America,Woman,1,1,1,Pasta,0
+15,26-35,North America/Central America,Woman,1,0,0,Steak,0
+15,26-35,North America/Central America,Woman,0,1,1,Dumpling,0
+15,26-35,North America/Central America,Woman,1,1,1,Sushi,0
+15,26-35,North America/Central America,Woman,0,0,0,Fried Rice,0
+15,26-35,North America/Central America,Woman,0,1,1,Salad,0
+16,26-35,Asia/Middle east,Man,0,0,0,Burger,0
+16,26-35,Asia/Middle east,Man,0,0,0,Taco,0
+16,26-35,Asia/Middle east,Man,1,0,0,Fried Chicken,0
+16,26-35,Asia/Middle east,Man,0,0,0,Salmon,0
+16,26-35,Asia/Middle east,Man,0,0,0,Pasta,0
+16,26-35,Asia/Middle east,Man,0,1,1,Steak,0
+16,26-35,Asia/Middle east,Man,0,1,1,Dumpling,0
+16,26-35,Asia/Middle east,Man,0,0,0,Sushi,0
+16,26-35,Asia/Middle east,Man,0,0,0,Fried Rice,0
+16,26-35,Asia/Middle east,Man,0,1,1,Salad,0
+17,16-25,Asia/Middle east,Man,1,1,1,Burger,0
+17,16-25,Asia/Middle east,Man,0,0,0,Taco,0
+17,16-25,Asia/Middle east,Man,0,1,1,Fried Chicken,0
+17,16-25,Asia/Middle east,Man,0,0,0,Salmon,0
+17,16-25,Asia/Middle east,Man,1,1,1,Pasta,0
+17,16-25,Asia/Middle east,Man,0,1,1,Steak,0
+17,16-25,Asia/Middle east,Man,0,1,1,Dumpling,0
+17,16-25,Asia/Middle east,Man,1,1,1,Sushi,0
+17,16-25,Asia/Middle east,Man,1,1,1,Fried Rice,0
+17,16-25,Asia/Middle east,Man,0,1,1,Salad,0
+18,16-25,Asia/Middle east,Man,0,0,0,Burger,0
+18,16-25,Asia/Middle east,Man,0,0,0,Taco,0
+18,16-25,Asia/Middle east,Man,0,1,1,Fried Chicken,0
+18,16-25,Asia/Middle east,Man,0,0,0,Salmon,0
+18,16-25,Asia/Middle east,Man,1,1,1,Pasta,0
+18,16-25,Asia/Middle east,Man,1,0,0,Steak,0
+18,16-25,Asia/Middle east,Man,1,0,0,Dumpling,0
+18,16-25,Asia/Middle east,Man,1,1,1,Sushi,0
+18,16-25,Asia/Middle east,Man,0,0,0,Fried Rice,0
+18,16-25,Asia/Middle east,Man,1,0,0,Salad,0
+19,26-35,Asia/Middle east,Woman,0,0,0,Burger,0
+19,26-35,Asia/Middle east,Woman,0,0,0,Taco,0
+19,26-35,Asia/Middle east,Woman,1,0,0,Fried Chicken,0
+19,26-35,Asia/Middle east,Woman,1,1,1,Salmon,0
+19,26-35,Asia/Middle east,Woman,0,0,0,Pasta,0
+19,26-35,Asia/Middle east,Woman,1,0,0,Steak,0
+19,26-35,Asia/Middle east,Woman,0,1,1,Dumpling,0
+19,26-35,Asia/Middle east,Woman,1,1,1,Sushi,0
+19,26-35,Asia/Middle east,Woman,0,0,0,Fried Rice,0
+19,26-35,Asia/Middle east,Woman,1,0,0,Salad,0
+20,36-45,North America/Central America,Man,0,0,0,Burger,0
+20,36-45,North America/Central America,Man,0,0,0,Taco,0
+20,36-45,North America/Central America,Man,0,1,1,Fried Chicken,0
+20,36-45,North America/Central America,Man,0,0,0,Salmon,0
+20,36-45,North America/Central America,Man,0,0,0,Pasta,0
+20,36-45,North America/Central America,Man,1,0,0,Steak,0
+20,36-45,North America/Central America,Man,0,1,1,Dumpling,0
+20,36-45,North America/Central America,Man,1,1,1,Sushi,0
+20,36-45,North America/Central America,Man,0,0,0,Fried Rice,0
+20,36-45,North America/Central America,Man,0,1,1,Salad,0
+21,26-35,Asia/Middle east,Man,0,0,0,Burger,0
+21,26-35,Asia/Middle east,Man,1,1,1,Taco,0
+21,26-35,Asia/Middle east,Man,1,0,0,Fried Chicken,0
+21,26-35,Asia/Middle east,Man,1,1,1,Salmon,0
+21,26-35,Asia/Middle east,Man,1,1,1,Pasta,0
+21,26-35,Asia/Middle east,Man,1,0,0,Steak,0
+21,26-35,Asia/Middle east,Man,1,0,0,Dumpling,0
+21,26-35,Asia/Middle east,Man,1,1,1,Sushi,0
+21,26-35,Asia/Middle east,Man,1,1,1,Fried Rice,0
+21,26-35,Asia/Middle east,Man,1,0,0,Salad,0
+22,16-25,North America/Central America,Woman,1,1,1,Burger,0
+22,16-25,North America/Central America,Woman,0,0,0,Taco,0
+22,16-25,North America/Central America,Woman,0,1,1,Fried Chicken,0
+22,16-25,North America/Central America,Woman,0,0,0,Salmon,0
+22,16-25,North America/Central America,Woman,0,0,0,Pasta,0
+22,16-25,North America/Central America,Woman,0,1,1,Steak,0
+22,16-25,North America/Central America,Woman,0,1,1,Dumpling,0
+22,16-25,North America/Central America,Woman,1,1,1,Sushi,0
+22,16-25,North America/Central America,Woman,0,0,0,Fried Rice,0
+22,16-25,North America/Central America,Woman,1,0,0,Salad,0
+23,26-35,North America/Central America,Woman,1,1,1,Burger,0
+23,26-35,North America/Central America,Woman,1,1,1,Taco,0
+23,26-35,North America/Central America,Woman,1,0,0,Fried Chicken,0
+23,26-35,North America/Central America,Woman,1,1,1,Salmon,0
+23,26-35,North America/Central America,Woman,1,1,1,Pasta,0
+23,26-35,North America/Central America,Woman,1,0,0,Steak,0
+23,26-35,North America/Central America,Woman,1,0,0,Dumpling,0
+23,26-35,North America/Central America,Woman,1,1,1,Sushi,0
+23,26-35,North America/Central America,Woman,1,1,1,Fried Rice,0
+23,26-35,North America/Central America,Woman,1,0,0,Salad,0
+24,16-25,Asia/Middle east,Woman,1,1,1,Burger,0
+24,16-25,Asia/Middle east,Woman,1,1,1,Taco,0
+24,16-25,Asia/Middle east,Woman,1,0,0,Fried Chicken,0
+24,16-25,Asia/Middle east,Woman,0,0,0,Salmon,0
+24,16-25,Asia/Middle east,Woman,1,1,1,Pasta,0
+24,16-25,Asia/Middle east,Woman,1,0,0,Steak,0
+24,16-25,Asia/Middle east,Woman,0,1,1,Dumpling,0
+24,16-25,Asia/Middle east,Woman,1,1,1,Sushi,0
+24,16-25,Asia/Middle east,Woman,0,0,0,Fried Rice,0
+24,16-25,Asia/Middle east,Woman,0,1,1,Salad,0
+25,16-25,North America/Central America,Woman,0,0,0,Burger,0
+25,16-25,North America/Central America,Woman,1,1,1,Taco,0
+25,16-25,North America/Central America,Woman,0,1,1,Fried Chicken,0
+25,16-25,North America/Central America,Woman,0,0,0,Salmon,0
+25,16-25,North America/Central America,Woman,1,1,1,Pasta,0
+25,16-25,North America/Central America,Woman,1,0,0,Steak,0
+25,16-25,North America/Central America,Woman,1,0,0,Dumpling,0
+25,16-25,North America/Central America,Woman,1,1,1,Sushi,0
+25,16-25,North America/Central America,Woman,0,0,0,Fried Rice,0
+25,16-25,North America/Central America,Woman,0,1,1,Salad,0
+26,16-25,Asia/Middle east,Non-binary/third gender,1,1,1,Burger,0
+26,16-25,Asia/Middle east,Non-binary/third gender,1,1,1,Taco,0
+26,16-25,Asia/Middle east,Non-binary/third gender,0,1,1,Fried Chicken,0
+26,16-25,Asia/Middle east,Non-binary/third gender,0,0,0,Salmon,0
+26,16-25,Asia/Middle east,Non-binary/third gender,0,0,0,Pasta,0
+26,16-25,Asia/Middle east,Non-binary/third gender,0,1,1,Steak,0
+26,16-25,Asia/Middle east,Non-binary/third gender,0,1,1,Dumpling,0
+26,16-25,Asia/Middle east,Non-binary/third gender,1,1,1,Sushi,0
+26,16-25,Asia/Middle east,Non-binary/third gender,0,0,0,Fried Rice,0
+26,16-25,Asia/Middle east,Non-binary/third gender,1,0,0,Salad,0
+27,16-25,Asia/Middle east,Man,0,0,0,Burger,0
+27,16-25,Asia/Middle east,Man,0,0,0,Taco,0
+27,16-25,Asia/Middle east,Man,0,1,1,Fried Chicken,0
+27,16-25,Asia/Middle east,Man,0,0,0,Salmon,0
+27,16-25,Asia/Middle east,Man,0,0,0,Pasta,0
+27,16-25,Asia/Middle east,Man,0,1,1,Steak,0
+27,16-25,Asia/Middle east,Man,0,1,1,Dumpling,0
+27,16-25,Asia/Middle east,Man,0,0,0,Sushi,0
+27,16-25,Asia/Middle east,Man,0,0,0,Fried Rice,0
+27,16-25,Asia/Middle east,Man,0,1,1,Salad,0
+28,26-35,Asia/Middle east,Woman,0,0,0,Burger,0
+28,26-35,Asia/Middle east,Woman,1,1,1,Taco,0
+28,26-35,Asia/Middle east,Woman,1,0,0,Fried Chicken,0
+28,26-35,Asia/Middle east,Woman,1,1,1,Salmon,0
+28,26-35,Asia/Middle east,Woman,1,1,1,Pasta,0
+28,26-35,Asia/Middle east,Woman,0,1,1,Steak,0
+28,26-35,Asia/Middle east,Woman,1,0,0,Dumpling,0
+28,26-35,Asia/Middle east,Woman,1,1,1,Sushi,0
+28,26-35,Asia/Middle east,Woman,0,0,0,Fried Rice,0
+28,26-35,Asia/Middle east,Woman,1,0,0,Salad,0
+29,46-55,Asia/Middle east,Woman,0,0,0,Burger,0
+29,46-55,Asia/Middle east,Woman,0,0,0,Taco,0
+29,46-55,Asia/Middle east,Woman,0,1,1,Fried Chicken,0
+29,46-55,Asia/Middle east,Woman,1,1,1,Salmon,0
+29,46-55,Asia/Middle east,Woman,0,0,0,Pasta,0
+29,46-55,Asia/Middle east,Woman,1,1,1,Steak,0
+29,46-55,Asia/Middle east,Woman,1,0,0,Dumpling,0
+29,46-55,Asia/Middle east,Woman,0,0,0,Sushi,0
+29,46-55,Asia/Middle east,Woman,1,1,1,Fried Rice,0
+29,46-55,Asia/Middle east,Woman,1,0,0,Salad,0
+30,16-25,Asia/Middle east,Woman,0,0,0,Burger,0
+30,16-25,Asia/Middle east,Woman,0,0,0,Taco,0
+30,16-25,Asia/Middle east,Woman,1,0,0,Fried Chicken,0
+30,16-25,Asia/Middle east,Woman,0,0,0,Salmon,0
+30,16-25,Asia/Middle east,Woman,0,0,0,Pasta,0
+30,16-25,Asia/Middle east,Woman,1,0,0,Steak,0
+30,16-25,Asia/Middle east,Woman,0,1,1,Dumpling,0
+30,16-25,Asia/Middle east,Woman,0,0,0,Sushi,0
+30,16-25,Asia/Middle east,Woman,1,1,1,Fried Rice,0
+30,16-25,Asia/Middle east,Woman,1,0,0,Salad,0
+31,16-25,Asia/Middle east,Man,1,1,1,Burger,0
+31,16-25,Asia/Middle east,Man,0,0,0,Taco,0
+31,16-25,Asia/Middle east,Man,1,0,0,Fried Chicken,0
+31,16-25,Asia/Middle east,Man,1,1,1,Salmon,0
+31,16-25,Asia/Middle east,Man,1,1,1,Pasta,0
+31,16-25,Asia/Middle east,Man,0,1,1,Steak,0
+31,16-25,Asia/Middle east,Man,0,1,1,Dumpling,0
+31,16-25,Asia/Middle east,Man,1,1,1,Sushi,0
+31,16-25,Asia/Middle east,Man,0,0,0,Fried Rice,0
+31,16-25,Asia/Middle east,Man,1,0,0,Salad,0
+32,36-45,Asia/Middle east,Woman,0,0,0,Burger,0
+32,36-45,Asia/Middle east,Woman,1,1,1,Taco,0
+32,36-45,Asia/Middle east,Woman,0,1,1,Fried Chicken,0
+32,36-45,Asia/Middle east,Woman,0,0,0,Salmon,0
+32,36-45,Asia/Middle east,Woman,1,1,1,Pasta,0
+32,36-45,Asia/Middle east,Woman,1,0,0,Steak,0
+32,36-45,Asia/Middle east,Woman,0,1,1,Dumpling,0
+32,36-45,Asia/Middle east,Woman,0,0,0,Sushi,0
+32,36-45,Asia/Middle east,Woman,0,0,0,Fried Rice,0
+32,36-45,Asia/Middle east,Woman,0,1,1,Salad,0
+33,36-45,Asia/Middle east,Man,0,0,0,Burger,0
+33,36-45,Asia/Middle east,Man,1,1,1,Taco,0
+33,36-45,Asia/Middle east,Man,1,0,0,Fried Chicken,0
+33,36-45,Asia/Middle east,Man,0,0,0,Salmon,0
+33,36-45,Asia/Middle east,Man,0,0,0,Pasta,0
+33,36-45,Asia/Middle east,Man,1,0,0,Steak,0
+33,36-45,Asia/Middle east,Man,0,1,1,Dumpling,0
+33,36-45,Asia/Middle east,Man,0,0,0,Sushi,0
+33,36-45,Asia/Middle east,Man,1,1,1,Fried Rice,0
+33,36-45,Asia/Middle east,Man,0,1,1,Salad,0
+34,26-35,Asia/Middle east,Man,0,0,0,Burger,0
+34,26-35,Asia/Middle east,Man,1,1,1,Taco,0
+34,26-35,Asia/Middle east,Man,1,0,0,Fried Chicken,0
+34,26-35,Asia/Middle east,Man,0,0,0,Salmon,0
+34,26-35,Asia/Middle east,Man,1,1,1,Pasta,0
+34,26-35,Asia/Middle east,Man,1,0,0,Steak,0
+34,26-35,Asia/Middle east,Man,1,0,0,Dumpling,0
+34,26-35,Asia/Middle east,Man,1,1,1,Sushi,0
+34,26-35,Asia/Middle east,Man,0,0,0,Fried Rice,0
+34,26-35,Asia/Middle east,Man,1,0,0,Salad,0
+35,26-35,Asia/Middle east,Woman,0,0,0,Burger,0
+35,26-35,Asia/Middle east,Woman,1,1,1,Taco,0
+35,26-35,Asia/Middle east,Woman,1,0,0,Fried Chicken,0
+35,26-35,Asia/Middle east,Woman,0,0,0,Salmon,0
+35,26-35,Asia/Middle east,Woman,1,1,1,Pasta,0
+35,26-35,Asia/Middle east,Woman,1,0,0,Steak,0
+35,26-35,Asia/Middle east,Woman,0,1,1,Dumpling,0
+35,26-35,Asia/Middle east,Woman,1,1,1,Sushi,0
+35,26-35,Asia/Middle east,Woman,0,0,0,Fried Rice,0
+35,26-35,Asia/Middle east,Woman,1,0,0,Salad,0
+36,16-25,Asia/Middle east,Man,0,0,0,Burger,0
+36,16-25,Asia/Middle east,Man,0,0,0,Taco,0
+36,16-25,Asia/Middle east,Man,0,1,1,Fried Chicken,0
+36,16-25,Asia/Middle east,Man,0,0,0,Salmon,0
+36,16-25,Asia/Middle east,Man,1,1,1,Pasta,0
+36,16-25,Asia/Middle east,Man,0,1,1,Steak,0
+36,16-25,Asia/Middle east,Man,0,1,1,Dumpling,0
+36,16-25,Asia/Middle east,Man,1,1,1,Sushi,0
+36,16-25,Asia/Middle east,Man,0,0,0,Fried Rice,0
+36,16-25,Asia/Middle east,Man,0,1,1,Salad,0
+37,46-55,North America/Central America,Woman,1,1,1,Burger,0
+37,46-55,North America/Central America,Woman,1,1,1,Taco,0
+37,46-55,North America/Central America,Woman,0,1,1,Fried Chicken,0
+37,46-55,North America/Central America,Woman,0,0,0,Salmon,0
+37,46-55,North America/Central America,Woman,1,1,1,Pasta,0
+37,46-55,North America/Central America,Woman,1,0,0,Steak,0
+37,46-55,North America/Central America,Woman,1,0,0,Dumpling,0
+37,46-55,North America/Central America,Woman,0,0,0,Sushi,0
+37,46-55,North America/Central America,Woman,0,0,0,Fried Rice,0
+37,46-55,North America/Central America,Woman,1,0,0,Salad,0
+38,16-25,North America/Central America,Woman,0,0,0,Burger,0
+38,16-25,North America/Central America,Woman,1,1,1,Taco,0
+38,16-25,North America/Central America,Woman,0,1,1,Fried Chicken,0
+38,16-25,North America/Central America,Woman,0,0,0,Salmon,0
+38,16-25,North America/Central America,Woman,1,1,1,Pasta,0
+38,16-25,North America/Central America,Woman,1,0,0,Steak,0
+38,16-25,North America/Central America,Woman,1,0,0,Dumpling,0
+38,16-25,North America/Central America,Woman,1,1,1,Sushi,0
+38,16-25,North America/Central America,Woman,0,0,0,Fried Rice,0
+38,16-25,North America/Central America,Woman,1,0,0,Salad,0
+39,16-25,North America/Central America,Man,1,1,1,Burger,0
+39,16-25,North America/Central America,Man,1,1,1,Taco,0
+39,16-25,North America/Central America,Man,0,1,1,Fried Chicken,0
+39,16-25,North America/Central America,Man,1,1,1,Salmon,0
+39,16-25,North America/Central America,Man,1,1,1,Pasta,0
+39,16-25,North America/Central America,Man,1,0,0,Steak,0
+39,16-25,North America/Central America,Man,1,0,0,Dumpling,0
+39,16-25,North America/Central America,Man,1,1,1,Sushi,0
+39,16-25,North America/Central America,Man,1,1,1,Fried Rice,0
+39,16-25,North America/Central America,Man,1,0,0,Salad,0
+40,16-25,Asia/Middle east,Woman,0,0,0,Burger,0
+40,16-25,Asia/Middle east,Woman,0,0,0,Taco,0
+40,16-25,Asia/Middle east,Woman,0,1,1,Fried Chicken,0
+40,16-25,Asia/Middle east,Woman,0,0,0,Salmon,0
+40,16-25,Asia/Middle east,Woman,0,0,0,Pasta,0
+40,16-25,Asia/Middle east,Woman,0,1,1,Steak,0
+40,16-25,Asia/Middle east,Woman,0,1,1,Dumpling,0
+40,16-25,Asia/Middle east,Woman,1,1,1,Sushi,0
+40,16-25,Asia/Middle east,Woman,0,0,0,Fried Rice,0
+40,16-25,Asia/Middle east,Woman,0,1,1,Salad,0
+41,26-35,Asia/Middle east,Woman,0,1,1,Burger,0
+41,26-35,Asia/Middle east,Woman,0,0,0,Taco,0
+41,26-35,Asia/Middle east,Woman,1,0,0,Fried Chicken,0
+41,26-35,Asia/Middle east,Woman,1,1,1,Salmon,0
+41,26-35,Asia/Middle east,Woman,0,0,0,Pasta,0
+41,26-35,Asia/Middle east,Woman,1,0,0,Steak,0
+41,26-35,Asia/Middle east,Woman,1,0,0,Dumpling,0
+41,26-35,Asia/Middle east,Woman,0,0,0,Sushi,0
+41,26-35,Asia/Middle east,Woman,1,1,1,Fried Rice,0
+41,26-35,Asia/Middle east,Woman,0,1,1,Salad,0
+42,16-25,Asia/Middle east,Woman,0,0,0,Burger,0
+42,16-25,Asia/Middle east,Woman,1,1,1,Taco,0
+42,16-25,Asia/Middle east,Woman,0,1,1,Fried Chicken,0
+42,16-25,Asia/Middle east,Woman,0,0,0,Salmon,0
+42,16-25,Asia/Middle east,Woman,0,0,0,Pasta,0
+42,16-25,Asia/Middle east,Woman,1,0,0,Steak,0
+42,16-25,Asia/Middle east,Woman,0,1,1,Dumpling,0
+42,16-25,Asia/Middle east,Woman,0,0,0,Sushi,0
+42,16-25,Asia/Middle east,Woman,0,0,0,Fried Rice,0
+42,16-25,Asia/Middle east,Woman,0,1,1,Salad,0
+43,26-35,North America/Central America,Man,1,1,1,Burger,0
+43,26-35,North America/Central America,Man,1,1,1,Taco,0
+43,26-35,North America/Central America,Man,1,0,0,Fried Chicken,0
+43,26-35,North America/Central America,Man,1,1,1,Salmon,0
+43,26-35,North America/Central America,Man,1,1,1,Pasta,0
+43,26-35,North America/Central America,Man,1,0,0,Steak,0
+43,26-35,North America/Central America,Man,1,0,0,Dumpling,0
+43,26-35,North America/Central America,Man,1,1,1,Sushi,0
+43,26-35,North America/Central America,Man,0,0,0,Fried Rice,0
+43,26-35,North America/Central America,Man,0,1,1,Salad,0
+44,16-25,North America/Central America,Woman,0,0,0,Burger,0
+44,16-25,North America/Central America,Woman,1,1,1,Taco,0
+44,16-25,North America/Central America,Woman,1,0,0,Fried Chicken,0
+44,16-25,North America/Central America,Woman,1,1,1,Salmon,0
+44,16-25,North America/Central America,Woman,1,1,1,Pasta,0
+44,16-25,North America/Central America,Woman,1,0,0,Steak,0
+44,16-25,North America/Central America,Woman,1,0,0,Dumpling,0
+44,16-25,North America/Central America,Woman,1,1,1,Sushi,0
+44,16-25,North America/Central America,Woman,0,0,0,Fried Rice,0
+44,16-25,North America/Central America,Woman,0,1,1,Salad,0
+45,26-35,Asia/Middle east,Woman,0,0,0,Burger,0
+45,26-35,Asia/Middle east,Woman,0,0,0,Taco,0
+45,26-35,Asia/Middle east,Woman,1,0,0,Fried Chicken,0
+45,26-35,Asia/Middle east,Woman,0,0,0,Salmon,0
+45,26-35,Asia/Middle east,Woman,1,1,1,Pasta,0
+45,26-35,Asia/Middle east,Woman,0,1,1,Steak,0
+45,26-35,Asia/Middle east,Woman,0,1,1,Dumpling,0
+45,26-35,Asia/Middle east,Woman,1,1,1,Sushi,0
+45,26-35,Asia/Middle east,Woman,1,1,1,Fried Rice,0
+45,26-35,Asia/Middle east,Woman,1,0,0,Salad,0
+46,26-35,Asia/Middle east,Man,1,1,1,Burger,0
+46,26-35,Asia/Middle east,Man,0,0,0,Taco,0
+46,26-35,Asia/Middle east,Man,0,1,1,Fried Chicken,0
+46,26-35,Asia/Middle east,Man,0,0,0,Salmon,0
+46,26-35,Asia/Middle east,Man,0,0,0,Pasta,0
+46,26-35,Asia/Middle east,Man,0,1,1,Steak,0
+46,26-35,Asia/Middle east,Man,1,0,0,Dumpling,0
+46,26-35,Asia/Middle east,Man,1,1,1,Sushi,0
+46,26-35,Asia/Middle east,Man,0,0,0,Fried Rice,0
+46,26-35,Asia/Middle east,Man,1,0,0,Salad,0
+47,16-25,Asia/Middle east,Man,0,0,0,Burger,0
+47,16-25,Asia/Middle east,Man,0,0,0,Taco,0
+47,16-25,Asia/Middle east,Man,0,1,1,Fried Chicken,0
+47,16-25,Asia/Middle east,Man,1,1,1,Salmon,0
+47,16-25,Asia/Middle east,Man,0,0,0,Pasta,0
+47,16-25,Asia/Middle east,Man,1,0,0,Steak,0
+47,16-25,Asia/Middle east,Man,0,1,1,Dumpling,0
+47,16-25,Asia/Middle east,Man,1,1,1,Sushi,0
+47,16-25,Asia/Middle east,Man,0,0,0,Fried Rice,0
+47,16-25,Asia/Middle east,Man,0,1,1,Salad,0
+48,16-25,Asia/Middle east,Woman,0,0,0,Burger,0
+48,16-25,Asia/Middle east,Woman,1,1,1,Taco,0
+48,16-25,Asia/Middle east,Woman,1,0,0,Fried Chicken,0
+48,16-25,Asia/Middle east,Woman,1,1,1,Salmon,0
+48,16-25,Asia/Middle east,Woman,1,1,1,Pasta,0
+48,16-25,Asia/Middle east,Woman,1,0,0,Steak,0
+48,16-25,Asia/Middle east,Woman,1,0,0,Dumpling,0
+48,16-25,Asia/Middle east,Woman,1,1,1,Sushi,0
+48,16-25,Asia/Middle east,Woman,1,1,1,Fried Rice,0
+48,16-25,Asia/Middle east,Woman,1,0,0,Salad,0
+49,16-25,Australia/New Zealand,Man,1,1,1,Burger,0
+49,16-25,Australia/New Zealand,Man,0,0,0,Taco,0
+49,16-25,Australia/New Zealand,Man,1,0,0,Fried Chicken,0
+49,16-25,Australia/New Zealand,Man,0,0,0,Salmon,0
+49,16-25,Australia/New Zealand,Man,1,1,1,Pasta,0
+49,16-25,Australia/New Zealand,Man,0,1,1,Steak,0
+49,16-25,Australia/New Zealand,Man,1,0,0,Dumpling,0
+49,16-25,Australia/New Zealand,Man,0,0,0,Sushi,0
+49,16-25,Australia/New Zealand,Man,1,1,1,Fried Rice,0
+49,16-25,Australia/New Zealand,Man,1,0,0,Salad,0
+50,16-25,North America/Central America,Man,1,1,1,Burger,0
+50,16-25,North America/Central America,Man,1,1,1,Taco,0
+50,16-25,North America/Central America,Man,1,0,0,Fried Chicken,0
+50,16-25,North America/Central America,Man,0,0,0,Salmon,0
+50,16-25,North America/Central America,Man,1,1,1,Pasta,0
+50,16-25,North America/Central America,Man,1,0,0,Steak,0
+50,16-25,North America/Central America,Man,0,1,1,Dumpling,0
+50,16-25,North America/Central America,Man,1,1,1,Sushi,0
+50,16-25,North America/Central America,Man,0,0,0,Fried Rice,0
+50,16-25,North America/Central America,Man,0,1,1,Salad,0
+51,16-25,Asia/Middle east,Man,1,1,1,Burger,0
+51,16-25,Asia/Middle east,Man,0,0,0,Taco,0
+51,16-25,Asia/Middle east,Man,1,0,0,Fried Chicken,0
+51,16-25,Asia/Middle east,Man,1,1,1,Salmon,0
+51,16-25,Asia/Middle east,Man,1,1,1,Pasta,0
+51,16-25,Asia/Middle east,Man,0,1,1,Steak,0
+51,16-25,Asia/Middle east,Man,0,1,1,Dumpling,0
+51,16-25,Asia/Middle east,Man,0,0,0,Sushi,0
+51,16-25,Asia/Middle east,Man,0,0,0,Fried Rice,0
+51,16-25,Asia/Middle east,Man,0,1,1,Salad,0
+52,16-25,North America/Central America,Man,1,1,1,Burger,0
+52,16-25,North America/Central America,Man,0,0,0,Taco,0
+52,16-25,North America/Central America,Man,1,0,0,Fried Chicken,0
+52,16-25,North America/Central America,Man,0,0,0,Salmon,0
+52,16-25,North America/Central America,Man,0,0,0,Pasta,0
+52,16-25,North America/Central America,Man,1,0,0,Steak,0
+52,16-25,North America/Central America,Man,0,1,1,Dumpling,0
+52,16-25,North America/Central America,Man,0,0,0,Sushi,0
+52,16-25,North America/Central America,Man,1,1,1,Fried Rice,0
+52,16-25,North America/Central America,Man,1,0,0,Salad,0
+53,16-25,Asia/Middle east,Man,0,0,0,Burger,0
+53,16-25,Asia/Middle east,Man,0,0,0,Taco,0
+53,16-25,Asia/Middle east,Man,0,1,1,Fried Chicken,0
+53,16-25,Asia/Middle east,Man,0,0,0,Salmon,0
+53,16-25,Asia/Middle east,Man,0,0,0,Pasta,0
+53,16-25,Asia/Middle east,Man,0,1,1,Steak,0
+53,16-25,Asia/Middle east,Man,0,1,1,Dumpling,0
+53,16-25,Asia/Middle east,Man,0,0,0,Sushi,0
+53,16-25,Asia/Middle east,Man,0,0,0,Fried Rice,0
+53,16-25,Asia/Middle east,Man,0,1,1,Salad,0
+54,16-25,Asia/Middle east,Woman,0,0,0,Burger,0
+54,16-25,Asia/Middle east,Woman,1,1,1,Taco,0
+54,16-25,Asia/Middle east,Woman,1,0,0,Fried Chicken,0
+54,16-25,Asia/Middle east,Woman,1,1,1,Salmon,0
+54,16-25,Asia/Middle east,Woman,1,1,1,Pasta,0
+54,16-25,Asia/Middle east,Woman,1,0,0,Steak,0
+54,16-25,Asia/Middle east,Woman,0,1,1,Dumpling,0
+54,16-25,Asia/Middle east,Woman,1,1,1,Sushi,0
+54,16-25,Asia/Middle east,Woman,0,0,0,Fried Rice,0
+54,16-25,Asia/Middle east,Woman,1,0,0,Salad,0
+55,26-35,Asia/Middle east,Man,1,1,1,Burger,0
+55,26-35,Asia/Middle east,Man,1,1,1,Taco,0
+55,26-35,Asia/Middle east,Man,1,0,0,Fried Chicken,0
+55,26-35,Asia/Middle east,Man,1,1,1,Salmon,0
+55,26-35,Asia/Middle east,Man,1,1,1,Pasta,0
+55,26-35,Asia/Middle east,Man,1,0,0,Steak,0
+55,26-35,Asia/Middle east,Man,1,0,0,Dumpling,0
+55,26-35,Asia/Middle east,Man,1,1,1,Sushi,0
+55,26-35,Asia/Middle east,Man,1,1,1,Fried Rice,0
+55,26-35,Asia/Middle east,Man,1,0,0,Salad,0
+56,16-25,North America/Central America,Man,1,1,1,Burger,0
+56,16-25,North America/Central America,Man,1,1,1,Taco,0
+56,16-25,North America/Central America,Man,0,1,1,Fried Chicken,0
+56,16-25,North America/Central America,Man,0,0,0,Salmon,0
+56,16-25,North America/Central America,Man,1,1,1,Pasta,0
+56,16-25,North America/Central America,Man,0,1,1,Steak,0
+56,16-25,North America/Central America,Man,0,1,1,Dumpling,0
+56,16-25,North America/Central America,Man,1,1,1,Sushi,0
+56,16-25,North America/Central America,Man,0,0,0,Fried Rice,0
+56,16-25,North America/Central America,Man,0,1,1,Salad,0
+57,16-25,North America/Central America,Woman,0,0,0,Burger,0
+57,16-25,North America/Central America,Woman,1,1,1,Taco,0
+57,16-25,North America/Central America,Woman,1,0,0,Fried Chicken,0
+57,16-25,North America/Central America,Woman,0,0,0,Salmon,0
+57,16-25,North America/Central America,Woman,1,1,1,Pasta,0
+57,16-25,North America/Central America,Woman,1,0,0,Steak,0
+57,16-25,North America/Central America,Woman,0,1,1,Dumpling,0
+57,16-25,North America/Central America,Woman,1,1,1,Sushi,0
+57,16-25,North America/Central America,Woman,0,0,0,Fried Rice,0
+57,16-25,North America/Central America,Woman,1,0,0,Salad,0
+58,16-25,Asia/Middle east,Man,0,0,0,Burger,0
+58,16-25,Asia/Middle east,Man,1,1,1,Taco,0
+58,16-25,Asia/Middle east,Man,1,0,0,Fried Chicken,0
+58,16-25,Asia/Middle east,Man,1,1,1,Salmon,0
+58,16-25,Asia/Middle east,Man,1,1,1,Pasta,0
+58,16-25,Asia/Middle east,Man,1,0,0,Steak,0
+58,16-25,Asia/Middle east,Man,1,0,0,Dumpling,0
+58,16-25,Asia/Middle east,Man,1,1,1,Sushi,0
+58,16-25,Asia/Middle east,Man,1,1,1,Fried Rice,0
+58,16-25,Asia/Middle east,Man,1,0,0,Salad,0
+59,16-25,North America/Central America,Man,1,1,1,Burger,0
+59,16-25,North America/Central America,Man,1,1,1,Taco,0
+59,16-25,North America/Central America,Man,1,0,0,Fried Chicken,0
+59,16-25,North America/Central America,Man,1,1,1,Salmon,0
+59,16-25,North America/Central America,Man,1,1,1,Pasta,0
+59,16-25,North America/Central America,Man,0,1,1,Steak,0
+59,16-25,North America/Central America,Man,1,0,0,Dumpling,0
+59,16-25,North America/Central America,Man,1,1,1,Sushi,0
+59,16-25,North America/Central America,Man,0,0,0,Fried Rice,0
+59,16-25,North America/Central America,Man,1,0,0,Salad,0
+60,16-25,Europe,Man,0,0,0,Burger,0
+60,16-25,Europe,Man,1,1,1,Taco,0
+60,16-25,Europe,Man,0,1,1,Fried Chicken,0
+60,16-25,Europe,Man,1,1,1,Salmon,0
+60,16-25,Europe,Man,1,1,1,Pasta,0
+60,16-25,Europe,Man,1,0,0,Steak,0
+60,16-25,Europe,Man,0,1,1,Dumpling,0
+60,16-25,Europe,Man,1,1,1,Sushi,0
+60,16-25,Europe,Man,1,1,1,Fried Rice,0
+60,16-25,Europe,Man,1,0,0,Salad,0
+61,16-25,North America/Central America,Man,0,0,0,Burger,0
+61,16-25,North America/Central America,Man,1,1,1,Taco,0
+61,16-25,North America/Central America,Man,0,1,1,Fried Chicken,0
+61,16-25,North America/Central America,Man,1,1,1,Salmon,0
+61,16-25,North America/Central America,Man,0,0,0,Pasta,0
+61,16-25,North America/Central America,Man,0,1,1,Steak,0
+61,16-25,North America/Central America,Man,1,0,0,Dumpling,0
+61,16-25,North America/Central America,Man,1,1,1,Sushi,0
+61,16-25,North America/Central America,Man,0,0,0,Fried Rice,0
+61,16-25,North America/Central America,Man,0,1,1,Salad,0
+62,26-35,Europe,Man,1,1,1,Burger,0
+62,26-35,Europe,Man,1,1,1,Taco,0
+62,26-35,Europe,Man,0,1,1,Fried Chicken,0
+62,26-35,Europe,Man,0,0,0,Salmon,0
+62,26-35,Europe,Man,0,0,0,Pasta,0
+62,26-35,Europe,Man,1,0,0,Steak,0
+62,26-35,Europe,Man,1,0,0,Dumpling,0
+62,26-35,Europe,Man,1,1,1,Sushi,0
+62,26-35,Europe,Man,1,1,1,Fried Rice,0
+62,26-35,Europe,Man,1,0,0,Salad,0
+63,16-25,Europe,Woman,0,0,0,Burger,0
+63,16-25,Europe,Woman,1,1,1,Taco,0
+63,16-25,Europe,Woman,1,0,0,Fried Chicken,0
+63,16-25,Europe,Woman,0,0,0,Salmon,0
+63,16-25,Europe,Woman,1,1,1,Pasta,0
+63,16-25,Europe,Woman,1,0,0,Steak,0
+63,16-25,Europe,Woman,0,1,1,Dumpling,0
+63,16-25,Europe,Woman,0,0,0,Sushi,0
+63,16-25,Europe,Woman,0,0,0,Fried Rice,0
+63,16-25,Europe,Woman,1,0,0,Salad,0
+64,16-25,Asia/Middle east,Woman,1,1,1,Burger,0
+64,16-25,Asia/Middle east,Woman,1,1,1,Taco,0
+64,16-25,Asia/Middle east,Woman,1,0,0,Fried Chicken,0
+64,16-25,Asia/Middle east,Woman,0,0,0,Salmon,0
+64,16-25,Asia/Middle east,Woman,0,0,0,Pasta,0
+64,16-25,Asia/Middle east,Woman,0,1,1,Steak,0
+64,16-25,Asia/Middle east,Woman,1,0,0,Dumpling,0
+64,16-25,Asia/Middle east,Woman,1,1,1,Sushi,0
+64,16-25,Asia/Middle east,Woman,1,1,1,Fried Rice,0
+64,16-25,Asia/Middle east,Woman,1,0,0,Salad,0
+65,16-25,North America/Central America,Woman,1,1,1,Burger,0
+65,16-25,North America/Central America,Woman,1,1,1,Taco,0
+65,16-25,North America/Central America,Woman,1,0,0,Fried Chicken,0
+65,16-25,North America/Central America,Woman,0,0,0,Salmon,0
+65,16-25,North America/Central America,Woman,0,0,0,Pasta,0
+65,16-25,North America/Central America,Woman,0,1,1,Steak,0
+65,16-25,North America/Central America,Woman,1,0,0,Dumpling,0
+65,16-25,North America/Central America,Woman,1,1,1,Sushi,0
+65,16-25,North America/Central America,Woman,0,0,0,Fried Rice,0
+65,16-25,North America/Central America,Woman,0,1,1,Salad,0
+66,46-55,Europe,Man,0,0,0,Burger,0
+66,46-55,Europe,Man,0,0,0,Taco,0
+66,46-55,Europe,Man,0,1,1,Fried Chicken,0
+66,46-55,Europe,Man,0,0,0,Salmon,0
+66,46-55,Europe,Man,1,1,1,Pasta,0
+66,46-55,Europe,Man,1,0,0,Steak,0
+66,46-55,Europe,Man,0,1,1,Dumpling,0
+66,46-55,Europe,Man,0,0,0,Sushi,0
+66,46-55,Europe,Man,0,0,0,Fried Rice,0
+66,46-55,Europe,Man,1,0,0,Salad,0
+67,36-45,Europe,Woman,0,0,0,Burger,0
+67,36-45,Europe,Woman,0,0,0,Taco,0
+67,36-45,Europe,Woman,0,1,1,Fried Chicken,0
+67,36-45,Europe,Woman,0,0,0,Salmon,0
+67,36-45,Europe,Woman,1,1,1,Pasta,0
+67,36-45,Europe,Woman,1,0,0,Steak,0
+67,36-45,Europe,Woman,0,1,1,Dumpling,0
+67,36-45,Europe,Woman,0,0,0,Sushi,0
+67,36-45,Europe,Woman,1,1,1,Fried Rice,0
+67,36-45,Europe,Woman,1,0,0,Salad,0
+68,16-25,North America/Central America,Woman,0,0,0,Burger,0
+68,16-25,North America/Central America,Woman,0,0,0,Taco,0
+68,16-25,North America/Central America,Woman,1,0,0,Fried Chicken,0
+68,16-25,North America/Central America,Woman,0,0,0,Salmon,0
+68,16-25,North America/Central America,Woman,0,0,0,Pasta,0
+68,16-25,North America/Central America,Woman,1,0,0,Steak,0
+68,16-25,North America/Central America,Woman,0,1,1,Dumpling,0
+68,16-25,North America/Central America,Woman,1,1,1,Sushi,0
+68,16-25,North America/Central America,Woman,0,0,0,Fried Rice,0
+68,16-25,North America/Central America,Woman,1,0,0,Salad,0
+69,16-25,Europe,Woman,0,0,0,Burger,0
+69,16-25,Europe,Woman,1,1,1,Taco,0
+69,16-25,Europe,Woman,1,0,0,Fried Chicken,0
+69,16-25,Europe,Woman,0,0,0,Salmon,0
+69,16-25,Europe,Woman,1,1,1,Pasta,0
+69,16-25,Europe,Woman,0,1,1,Steak,0
+69,16-25,Europe,Woman,1,0,0,Dumpling,0
+69,16-25,Europe,Woman,0,0,0,Sushi,0
+69,16-25,Europe,Woman,1,1,1,Fried Rice,0
+69,16-25,Europe,Woman,1,0,0,Salad,0
+70,16-25,North America/Central America,Man,1,1,1,Burger,0
+70,16-25,North America/Central America,Man,0,0,0,Taco,0
+70,16-25,North America/Central America,Man,1,0,0,Fried Chicken,0
+70,16-25,North America/Central America,Man,0,0,0,Salmon,0
+70,16-25,North America/Central America,Man,1,1,1,Pasta,0
+70,16-25,North America/Central America,Man,0,1,1,Steak,0
+70,16-25,North America/Central America,Man,0,1,1,Dumpling,0
+70,16-25,North America/Central America,Man,1,1,1,Sushi,0
+70,16-25,North America/Central America,Man,0,0,0,Fried Rice,0
+70,16-25,North America/Central America,Man,0,1,1,Salad,0
+71,16-25,Asia/Middle east,Man,1,1,1,Burger,0
+71,16-25,Asia/Middle east,Man,1,1,1,Taco,0
+71,16-25,Asia/Middle east,Man,1,0,0,Fried Chicken,0
+71,16-25,Asia/Middle east,Man,1,1,1,Salmon,0
+71,16-25,Asia/Middle east,Man,1,1,1,Pasta,0
+71,16-25,Asia/Middle east,Man,1,0,0,Steak,0
+71,16-25,Asia/Middle east,Man,1,0,0,Dumpling,0
+71,16-25,Asia/Middle east,Man,1,1,1,Sushi,0
+71,16-25,Asia/Middle east,Man,1,1,1,Fried Rice,0
+71,16-25,Asia/Middle east,Man,1,0,0,Salad,0
+72,16-25,North America/Central America,Man,0,0,0,Burger,0
+72,16-25,North America/Central America,Man,1,1,1,Taco,0
+72,16-25,North America/Central America,Man,1,0,0,Fried Chicken,0
+72,16-25,North America/Central America,Man,1,1,1,Salmon,0
+72,16-25,North America/Central America,Man,1,1,1,Pasta,0
+72,16-25,North America/Central America,Man,1,0,0,Steak,0
+72,16-25,North America/Central America,Man,0,1,1,Dumpling,0
+72,16-25,North America/Central America,Man,1,1,1,Sushi,0
+72,16-25,North America/Central America,Man,0,0,0,Fried Rice,0
+72,16-25,North America/Central America,Man,1,0,0,Salad,0
+73,16-25,North America/Central America,Woman,1,1,1,Burger,0
+73,16-25,North America/Central America,Woman,1,1,1,Taco,0
+73,16-25,North America/Central America,Woman,0,1,1,Fried Chicken,0
+73,16-25,North America/Central America,Woman,1,1,1,Salmon,0
+73,16-25,North America/Central America,Woman,1,1,1,Pasta,0
+73,16-25,North America/Central America,Woman,1,0,0,Steak,0
+73,16-25,North America/Central America,Woman,0,1,1,Dumpling,0
+73,16-25,North America/Central America,Woman,1,1,1,Sushi,0
+73,16-25,North America/Central America,Woman,0,0,0,Fried Rice,0
+73,16-25,North America/Central America,Woman,1,1,1,Salad,0
+74,16-25,North America/Central America,Man,1,1,1,Burger,0
+74,16-25,North America/Central America,Man,1,1,1,Taco,0
+74,16-25,North America/Central America,Man,0,1,1,Fried Chicken,0
+74,16-25,North America/Central America,Man,0,0,0,Salmon,0
+74,16-25,North America/Central America,Man,1,1,1,Pasta,0
+74,16-25,North America/Central America,Man,0,1,1,Steak,0
+74,16-25,North America/Central America,Man,1,0,0,Dumpling,0
+74,16-25,North America/Central America,Man,0,0,0,Sushi,0
+74,16-25,North America/Central America,Man,1,1,1,Fried Rice,0
+74,16-25,North America/Central America,Man,1,0,0,Salad,0
+75,16-25,Asia/Middle east,Man,0,0,0,Burger,0
+75,16-25,Asia/Middle east,Man,0,0,0,Taco,0
+75,16-25,Asia/Middle east,Man,1,0,0,Fried Chicken,0
+75,16-25,Asia/Middle east,Man,0,0,0,Salmon,0
+75,16-25,Asia/Middle east,Man,1,1,1,Pasta,0
+75,16-25,Asia/Middle east,Man,1,0,0,Steak,0
+75,16-25,Asia/Middle east,Man,0,1,1,Dumpling,0
+75,16-25,Asia/Middle east,Man,1,1,1,Sushi,0
+75,16-25,Asia/Middle east,Man,1,1,1,Fried Rice,0
+75,16-25,Asia/Middle east,Man,1,0,0,Salad,0
+76,16-25,North America/Central America,Man,0,0,0,Burger,0
+76,16-25,North America/Central America,Man,1,1,1,Taco,0
+76,16-25,North America/Central America,Man,1,0,0,Fried Chicken,0
+76,16-25,North America/Central America,Man,1,1,1,Salmon,0
+76,16-25,North America/Central America,Man,0,0,0,Pasta,0
+76,16-25,North America/Central America,Man,0,1,1,Steak,0
+76,16-25,North America/Central America,Man,0,1,1,Dumpling,0
+76,16-25,North America/Central America,Man,1,1,1,Sushi,0
+76,16-25,North America/Central America,Man,0,0,0,Fried Rice,0
+76,16-25,North America/Central America,Man,0,1,1,Salad,0
+77,16-25,Asia/Middle east,Man,0,0,0,Burger,0
+77,16-25,Asia/Middle east,Man,0,0,0,Taco,0
+77,16-25,Asia/Middle east,Man,0,1,1,Fried Chicken,0
+77,16-25,Asia/Middle east,Man,0,0,0,Salmon,0
+77,16-25,Asia/Middle east,Man,0,0,0,Pasta,0
+77,16-25,Asia/Middle east,Man,0,1,1,Steak,0
+77,16-25,Asia/Middle east,Man,0,1,1,Dumpling,0
+77,16-25,Asia/Middle east,Man,1,1,1,Sushi,0
+77,16-25,Asia/Middle east,Man,0,0,0,Fried Rice,0
+77,16-25,Asia/Middle east,Man,1,1,1,Salad,0
+78,16-25,Asia/Middle east,Woman,1,1,1,Burger,0
+78,16-25,Asia/Middle east,Woman,1,1,1,Taco,0
+78,16-25,Asia/Middle east,Woman,0,1,1,Fried Chicken,0
+78,16-25,Asia/Middle east,Woman,0,0,0,Salmon,0
+78,16-25,Asia/Middle east,Woman,0,0,0,Pasta,0
+78,16-25,Asia/Middle east,Woman,0,1,1,Steak,0
+78,16-25,Asia/Middle east,Woman,0,1,1,Dumpling,0
+78,16-25,Asia/Middle east,Woman,0,0,0,Sushi,0
+78,16-25,Asia/Middle east,Woman,0,0,0,Fried Rice,0
+78,16-25,Asia/Middle east,Woman,0,1,1,Salad,0
+79,16-25,Asia/Middle east,Man,0,0,0,Burger,0
+79,16-25,Asia/Middle east,Man,0,0,0,Taco,0
+79,16-25,Asia/Middle east,Man,1,0,0,Fried Chicken,0
+79,16-25,Asia/Middle east,Man,1,1,1,Salmon,0
+79,16-25,Asia/Middle east,Man,1,1,1,Pasta,0
+79,16-25,Asia/Middle east,Man,1,0,0,Steak,0
+79,16-25,Asia/Middle east,Man,0,1,1,Dumpling,0
+79,16-25,Asia/Middle east,Man,1,1,1,Sushi,0
+79,16-25,Asia/Middle east,Man,0,0,0,Fried Rice,0
+79,16-25,Asia/Middle east,Man,1,0,0,Salad,0
+80,16-25,Asia/Middle east,Woman,0,0,0,Burger,0
+80,16-25,Asia/Middle east,Woman,1,1,1,Taco,0
+80,16-25,Asia/Middle east,Woman,1,0,0,Fried Chicken,0
+80,16-25,Asia/Middle east,Woman,1,1,1,Salmon,0
+80,16-25,Asia/Middle east,Woman,1,1,1,Pasta,0
+80,16-25,Asia/Middle east,Woman,1,0,0,Steak,0
+80,16-25,Asia/Middle east,Woman,0,1,1,Dumpling,0
+80,16-25,Asia/Middle east,Woman,0,0,0,Sushi,0
+80,16-25,Asia/Middle east,Woman,1,1,1,Fried Rice,0
+80,16-25,Asia/Middle east,Woman,0,1,1,Salad,0
+81,56-65,Europe,Man,0,0,0,Burger,0
+81,56-65,Europe,Man,0,0,0,Taco,0
+81,56-65,Europe,Man,0,1,1,Fried Chicken,0
+81,56-65,Europe,Man,0,0,0,Salmon,0
+81,56-65,Europe,Man,1,1,1,Pasta,0
+81,56-65,Europe,Man,0,1,1,Steak,0
+81,56-65,Europe,Man,0,1,1,Dumpling,0
+81,56-65,Europe,Man,0,0,0,Sushi,0
+81,56-65,Europe,Man,0,0,0,Fried Rice,0
+81,56-65,Europe,Man,1,0,0,Salad,0
+82,16-25,North America/Central America,Man,1,1,1,Burger,0
+82,16-25,North America/Central America,Man,1,1,1,Taco,0
+82,16-25,North America/Central America,Man,1,0,0,Fried Chicken,0
+82,16-25,North America/Central America,Man,1,1,1,Salmon,0
+82,16-25,North America/Central America,Man,1,1,1,Pasta,0
+82,16-25,North America/Central America,Man,1,0,0,Steak,0
+82,16-25,North America/Central America,Man,0,1,1,Dumpling,0
+82,16-25,North America/Central America,Man,1,1,1,Sushi,0
+82,16-25,North America/Central America,Man,0,0,0,Fried Rice,0
+82,16-25,North America/Central America,Man,1,0,0,Salad,0
+83,16-25,Asia/Middle east,Woman,0,0,0,Burger,0
+83,16-25,Asia/Middle east,Woman,1,1,1,Taco,0
+83,16-25,Asia/Middle east,Woman,0,1,1,Fried Chicken,0
+83,16-25,Asia/Middle east,Woman,1,1,1,Salmon,0
+83,16-25,Asia/Middle east,Woman,1,1,1,Pasta,0
+83,16-25,Asia/Middle east,Woman,1,0,0,Steak,0
+83,16-25,Asia/Middle east,Woman,1,0,0,Dumpling,0
+83,16-25,Asia/Middle east,Woman,1,1,1,Sushi,0
+83,16-25,Asia/Middle east,Woman,1,1,1,Fried Rice,0
+83,16-25,Asia/Middle east,Woman,1,0,0,Salad,0
+84,16-25,Asia/Middle east,Woman,1,1,1,Burger,0
+84,16-25,Asia/Middle east,Woman,1,1,1,Taco,0
+84,16-25,Asia/Middle east,Woman,1,0,0,Fried Chicken,0
+84,16-25,Asia/Middle east,Woman,1,1,1,Salmon,0
+84,16-25,Asia/Middle east,Woman,1,1,1,Pasta,0
+84,16-25,Asia/Middle east,Woman,1,0,0,Steak,0
+84,16-25,Asia/Middle east,Woman,0,1,1,Dumpling,0
+84,16-25,Asia/Middle east,Woman,1,1,1,Sushi,0
+84,16-25,Asia/Middle east,Woman,0,0,0,Fried Rice,0
+84,16-25,Asia/Middle east,Woman,1,0,0,Salad,0
+85,16-25,Asia/Middle east,Man,0,0,0,Burger,0
+85,16-25,Asia/Middle east,Man,1,1,1,Taco,0
+85,16-25,Asia/Middle east,Man,1,0,0,Fried Chicken,0
+85,16-25,Asia/Middle east,Man,1,1,1,Salmon,0
+85,16-25,Asia/Middle east,Man,1,1,1,Pasta,0
+85,16-25,Asia/Middle east,Man,1,0,0,Steak,0
+85,16-25,Asia/Middle east,Man,0,1,1,Dumpling,0
+85,16-25,Asia/Middle east,Man,0,0,0,Sushi,0
+85,16-25,Asia/Middle east,Man,1,1,1,Fried Rice,0
+85,16-25,Asia/Middle east,Man,0,1,1,Salad,0
+86,16-25,Asia/Middle east,Woman,0,0,0,Burger,0
+86,16-25,Asia/Middle east,Woman,1,1,1,Taco,0
+86,16-25,Asia/Middle east,Woman,1,0,0,Fried Chicken,0
+86,16-25,Asia/Middle east,Woman,0,0,0,Salmon,0
+86,16-25,Asia/Middle east,Woman,1,1,1,Pasta,0
+86,16-25,Asia/Middle east,Woman,0,1,1,Steak,0
+86,16-25,Asia/Middle east,Woman,0,1,1,Dumpling,0
+86,16-25,Asia/Middle east,Woman,1,1,1,Sushi,0
+86,16-25,Asia/Middle east,Woman,1,1,1,Fried Rice,0
+86,16-25,Asia/Middle east,Woman,0,1,1,Salad,0
+87,16-25,North America/Central America,Woman,0,0,0,Burger,0
+87,16-25,North America/Central America,Woman,0,0,0,Taco,0
+87,16-25,North America/Central America,Woman,1,0,0,Fried Chicken,0
+87,16-25,North America/Central America,Woman,1,1,1,Salmon,0
+87,16-25,North America/Central America,Woman,1,1,1,Pasta,0
+87,16-25,North America/Central America,Woman,1,0,0,Steak,0
+87,16-25,North America/Central America,Woman,0,1,1,Dumpling,0
+87,16-25,North America/Central America,Woman,1,1,1,Sushi,0
+87,16-25,North America/Central America,Woman,0,0,0,Fried Rice,0
+87,16-25,North America/Central America,Woman,1,0,0,Salad,0
+88,16-25,Asia/Middle east,Woman,1,1,1,Burger,0
+88,16-25,Asia/Middle east,Woman,0,0,0,Taco,0
+88,16-25,Asia/Middle east,Woman,0,1,1,Fried Chicken,0
+88,16-25,Asia/Middle east,Woman,1,1,1,Salmon,0
+88,16-25,Asia/Middle east,Woman,1,1,1,Pasta,0
+88,16-25,Asia/Middle east,Woman,1,0,0,Steak,0
+88,16-25,Asia/Middle east,Woman,0,1,1,Dumpling,0
+88,16-25,Asia/Middle east,Woman,1,1,1,Sushi,0
+88,16-25,Asia/Middle east,Woman,0,0,0,Fried Rice,0
+88,16-25,Asia/Middle east,Woman,0,1,1,Salad,0
+89,16-25,North America/Central America,Woman,0,0,0,Burger,0
+89,16-25,North America/Central America,Woman,1,1,1,Taco,0
+89,16-25,North America/Central America,Woman,0,1,1,Fried Chicken,0
+89,16-25,North America/Central America,Woman,1,1,1,Salmon,0
+89,16-25,North America/Central America,Woman,1,1,1,Pasta,0
+89,16-25,North America/Central America,Woman,1,0,0,Steak,0
+89,16-25,North America/Central America,Woman,0,1,1,Dumpling,0
+89,16-25,North America/Central America,Woman,0,0,0,Sushi,0
+89,16-25,North America/Central America,Woman,0,0,0,Fried Rice,0
+89,16-25,North America/Central America,Woman,1,0,0,Salad,0
+90,46-55,Asia/Middle east,Perfer not to say,1,1,1,Burger,0
+90,46-55,Asia/Middle east,Perfer not to say,1,1,1,Taco,0
+90,46-55,Asia/Middle east,Perfer not to say,0,1,1,Fried Chicken,0
+90,46-55,Asia/Middle east,Perfer not to say,0,0,0,Salmon,0
+90,46-55,Asia/Middle east,Perfer not to say,0,0,0,Pasta,0
+90,46-55,Asia/Middle east,Perfer not to say,1,0,0,Steak,0
+90,46-55,Asia/Middle east,Perfer not to say,0,1,1,Dumpling,0
+90,46-55,Asia/Middle east,Perfer not to say,0,0,0,Sushi,0
+90,46-55,Asia/Middle east,Perfer not to say,0,0,0,Fried Rice,0
+90,46-55,Asia/Middle east,Perfer not to say,0,1,1,Salad,0
+91,16-25,North America/Central America,Man,1,1,1,Burger,0
+91,16-25,North America/Central America,Man,1,1,1,Taco,0
+91,16-25,North America/Central America,Man,1,0,0,Fried Chicken,0
+91,16-25,North America/Central America,Man,0,0,0,Salmon,0
+91,16-25,North America/Central America,Man,0,0,0,Pasta,0
+91,16-25,North America/Central America,Man,1,0,0,Steak,0
+91,16-25,North America/Central America,Man,1,0,0,Dumpling,0
+91,16-25,North America/Central America,Man,1,1,1,Sushi,0
+91,16-25,North America/Central America,Man,0,0,0,Fried Rice,0
+91,16-25,North America/Central America,Man,1,0,0,Salad,0
+92,16-25,North America/Central America,Man,0,0,0,Burger,0
+92,16-25,North America/Central America,Man,1,1,1,Taco,0
+92,16-25,North America/Central America,Man,1,0,0,Fried Chicken,0
+92,16-25,North America/Central America,Man,0,0,0,Salmon,0
+92,16-25,North America/Central America,Man,1,1,1,Pasta,0
+92,16-25,North America/Central America,Man,1,0,0,Steak,0
+92,16-25,North America/Central America,Man,0,1,1,Dumpling,0
+92,16-25,North America/Central America,Man,1,1,1,Sushi,0
+92,16-25,North America/Central America,Man,0,0,0,Fried Rice,0
+92,16-25,North America/Central America,Man,1,0,0,Salad,0
+93,16-25,Europe,Woman,0,0,0,Burger,0
+93,16-25,Europe,Woman,0,0,0,Taco,0
+93,16-25,Europe,Woman,0,1,1,Fried Chicken,0
+93,16-25,Europe,Woman,1,1,1,Salmon,0
+93,16-25,Europe,Woman,1,1,1,Pasta,0
+93,16-25,Europe,Woman,0,1,1,Steak,0
+93,16-25,Europe,Woman,0,1,1,Dumpling,0
+93,16-25,Europe,Woman,1,1,1,Sushi,0
+93,16-25,Europe,Woman,0,0,0,Fried Rice,0
+93,16-25,Europe,Woman,1,0,0,Salad,0
+94,16-25,North America/Central America,Man,1,1,1,Burger,0
+94,16-25,North America/Central America,Man,1,1,1,Taco,0
+94,16-25,North America/Central America,Man,1,0,0,Fried Chicken,0
+94,16-25,North America/Central America,Man,1,1,1,Salmon,0
+94,16-25,North America/Central America,Man,1,1,1,Pasta,0
+94,16-25,North America/Central America,Man,1,0,0,Steak,0
+94,16-25,North America/Central America,Man,0,1,1,Dumpling,0
+94,16-25,North America/Central America,Man,1,1,1,Sushi,0
+94,16-25,North America/Central America,Man,1,1,1,Fried Rice,0
+94,16-25,North America/Central America,Man,1,0,0,Salad,0
+95,16-25,North America/Central America,Man,0,0,0,Burger,0
+95,16-25,North America/Central America,Man,1,1,1,Taco,0
+95,16-25,North America/Central America,Man,1,0,0,Fried Chicken,0
+95,16-25,North America/Central America,Man,0,0,0,Salmon,0
+95,16-25,North America/Central America,Man,1,1,1,Pasta,0
+95,16-25,North America/Central America,Man,0,1,1,Steak,0
+95,16-25,North America/Central America,Man,0,1,1,Dumpling,0
+95,16-25,North America/Central America,Man,1,1,1,Sushi,0
+95,16-25,North America/Central America,Man,1,1,1,Fried Rice,0
+95,16-25,North America/Central America,Man,1,0,0,Salad,0
+96,16-25,North America/Central America,Woman,0,0,0,Burger,0
+96,16-25,North America/Central America,Woman,1,1,1,Taco,0
+96,16-25,North America/Central America,Woman,1,0,0,Fried Chicken,0
+96,16-25,North America/Central America,Woman,0,0,0,Salmon,0
+96,16-25,North America/Central America,Woman,1,1,1,Pasta,0
+96,16-25,North America/Central America,Woman,1,0,0,Steak,0
+96,16-25,North America/Central America,Woman,0,1,1,Dumpling,0
+96,16-25,North America/Central America,Woman,1,1,1,Sushi,0
+96,16-25,North America/Central America,Woman,0,0,0,Fried Rice,0
+96,16-25,North America/Central America,Woman,1,0,0,Salad,0
+97,16-25,Europe,Woman,1,0,0,Burger,1
+97,16-25,Europe,Woman,0,1,1,Taco,1
+97,16-25,Europe,Woman,1,1,1,Fried Chicken,1
+97,16-25,Europe,Woman,1,0,0,Salmon,1
+97,16-25,Europe,Woman,0,1,1,Pasta,1
+97,16-25,Europe,Woman,0,0,0,Steak,1
+97,16-25,Europe,Woman,1,1,1,Dumpling,1
+97,16-25,Europe,Woman,1,0,0,Sushi,1
+97,16-25,Europe,Woman,1,0,0,Fried Rice,1
+97,16-25,Europe,Woman,0,0,0,Salad,1
+98,16-25,Europe,Woman,1,0,0,Burger,1
+98,16-25,Europe,Woman,1,0,0,Taco,1
+98,16-25,Europe,Woman,1,1,1,Fried Chicken,1
+98,16-25,Europe,Woman,1,0,0,Salmon,1
+98,16-25,Europe,Woman,0,1,1,Pasta,1
+98,16-25,Europe,Woman,0,0,0,Steak,1
+98,16-25,Europe,Woman,1,1,1,Dumpling,1
+98,16-25,Europe,Woman,0,1,1,Sushi,1
+98,16-25,Europe,Woman,1,0,0,Fried Rice,1
+98,16-25,Europe,Woman,0,0,0,Salad,1
+99,16-25,North America/Central America,Man,1,0,0,Burger,1
+99,16-25,North America/Central America,Man,1,0,0,Taco,1
+99,16-25,North America/Central America,Man,0,0,0,Fried Chicken,1
+99,16-25,North America/Central America,Man,1,0,0,Salmon,1
+99,16-25,North America/Central America,Man,1,0,0,Pasta,1
+99,16-25,North America/Central America,Man,0,0,0,Steak,1
+99,16-25,North America/Central America,Man,1,1,1,Dumpling,1
+99,16-25,North America/Central America,Man,0,1,1,Sushi,1
+99,16-25,North America/Central America,Man,1,0,0,Fried Rice,1
+99,16-25,North America/Central America,Man,1,1,1,Salad,1
+100,16-25,North America/Central America,Man,1,0,0,Burger,1
+100,16-25,North America/Central America,Man,1,0,0,Taco,1
+100,16-25,North America/Central America,Man,1,1,1,Fried Chicken,1
+100,16-25,North America/Central America,Man,1,0,0,Salmon,1
+100,16-25,North America/Central America,Man,1,0,0,Pasta,1
+100,16-25,North America/Central America,Man,1,1,1,Steak,1
+100,16-25,North America/Central America,Man,1,1,1,Dumpling,1
+100,16-25,North America/Central America,Man,1,0,0,Sushi,1
+100,16-25,North America/Central America,Man,0,1,1,Fried Rice,1
+100,16-25,North America/Central America,Man,1,1,1,Salad,1
+101,26-35,Asia/Middle east,Man,1,0,0,Burger,1
+101,26-35,Asia/Middle east,Man,1,0,0,Taco,1
+101,26-35,Asia/Middle east,Man,0,0,0,Fried Chicken,1
+101,26-35,Asia/Middle east,Man,0,1,1,Salmon,1
+101,26-35,Asia/Middle east,Man,1,0,0,Pasta,1
+101,26-35,Asia/Middle east,Man,0,0,0,Steak,1
+101,26-35,Asia/Middle east,Man,1,1,1,Dumpling,1
+101,26-35,Asia/Middle east,Man,1,0,0,Sushi,1
+101,26-35,Asia/Middle east,Man,1,0,0,Fried Rice,1
+101,26-35,Asia/Middle east,Man,1,1,1,Salad,1
+102,16-25,Asia/Middle east,Woman,1,0,0,Burger,1
+102,16-25,Asia/Middle east,Woman,0,1,1,Taco,1
+102,16-25,Asia/Middle east,Woman,0,0,0,Fried Chicken,1
+102,16-25,Asia/Middle east,Woman,1,0,0,Salmon,1
+102,16-25,Asia/Middle east,Woman,1,0,0,Pasta,1
+102,16-25,Asia/Middle east,Woman,0,0,0,Steak,1
+102,16-25,Asia/Middle east,Woman,1,1,1,Dumpling,1
+102,16-25,Asia/Middle east,Woman,0,1,1,Sushi,1
+102,16-25,Asia/Middle east,Woman,1,0,0,Fried Rice,1
+102,16-25,Asia/Middle east,Woman,0,0,0,Salad,1
+103,16-25,Europe,Man,1,0,0,Burger,1
+103,16-25,Europe,Man,1,0,0,Taco,1
+103,16-25,Europe,Man,1,1,1,Fried Chicken,1
+103,16-25,Europe,Man,1,0,0,Salmon,1
+103,16-25,Europe,Man,0,1,1,Pasta,1
+103,16-25,Europe,Man,0,0,0,Steak,1
+103,16-25,Europe,Man,1,1,1,Dumpling,1
+103,16-25,Europe,Man,0,1,1,Sushi,1
+103,16-25,Europe,Man,1,0,0,Fried Rice,1
+103,16-25,Europe,Man,0,0,0,Salad,1
+104,26-35,Asia/Middle east,Woman,1,0,0,Burger,1
+104,26-35,Asia/Middle east,Woman,1,0,0,Taco,1
+104,26-35,Asia/Middle east,Woman,1,1,1,Fried Chicken,1
+104,26-35,Asia/Middle east,Woman,1,0,0,Salmon,1
+104,26-35,Asia/Middle east,Woman,1,0,0,Pasta,1
+104,26-35,Asia/Middle east,Woman,0,0,0,Steak,1
+104,26-35,Asia/Middle east,Woman,1,1,1,Dumpling,1
+104,26-35,Asia/Middle east,Woman,1,0,0,Sushi,1
+104,26-35,Asia/Middle east,Woman,1,0,0,Fried Rice,1
+104,26-35,Asia/Middle east,Woman,0,0,0,Salad,1
+105,16-25,Asia/Middle east,Woman,1,0,0,Burger,1
+105,16-25,Asia/Middle east,Woman,1,0,0,Taco,1
+105,16-25,Asia/Middle east,Woman,0,0,0,Fried Chicken,1
+105,16-25,Asia/Middle east,Woman,1,0,0,Salmon,1
+105,16-25,Asia/Middle east,Woman,1,0,0,Pasta,1
+105,16-25,Asia/Middle east,Woman,1,1,1,Steak,1
+105,16-25,Asia/Middle east,Woman,1,1,1,Dumpling,1
+105,16-25,Asia/Middle east,Woman,1,0,0,Sushi,1
+105,16-25,Asia/Middle east,Woman,1,0,0,Fried Rice,1
+105,16-25,Asia/Middle east,Woman,1,1,1,Salad,1
+106,36-45,Asia/Middle east,Woman,1,0,0,Burger,1
+106,36-45,Asia/Middle east,Woman,0,1,1,Taco,1
+106,36-45,Asia/Middle east,Woman,0,0,0,Fried Chicken,1
+106,36-45,Asia/Middle east,Woman,0,1,1,Salmon,1
+106,36-45,Asia/Middle east,Woman,0,1,1,Pasta,1
+106,36-45,Asia/Middle east,Woman,1,1,1,Steak,1
+106,36-45,Asia/Middle east,Woman,0,0,0,Dumpling,1
+106,36-45,Asia/Middle east,Woman,0,1,1,Sushi,1
+106,36-45,Asia/Middle east,Woman,1,0,0,Fried Rice,1
+106,36-45,Asia/Middle east,Woman,0,0,0,Salad,1
+107,16-25,North America/Central America,Woman,0,1,1,Burger,1
+107,16-25,North America/Central America,Woman,1,0,0,Taco,1
+107,16-25,North America/Central America,Woman,1,1,1,Fried Chicken,1
+107,16-25,North America/Central America,Woman,1,0,0,Salmon,1
+107,16-25,North America/Central America,Woman,1,0,0,Pasta,1
+107,16-25,North America/Central America,Woman,1,1,1,Steak,1
+107,16-25,North America/Central America,Woman,1,1,1,Dumpling,1
+107,16-25,North America/Central America,Woman,1,0,0,Sushi,1
+107,16-25,North America/Central America,Woman,1,0,0,Fried Rice,1
+107,16-25,North America/Central America,Woman,1,1,1,Salad,1
+108,46-55,Asia/Middle east,Woman,1,0,0,Burger,1
+108,46-55,Asia/Middle east,Woman,1,0,0,Taco,1
+108,46-55,Asia/Middle east,Woman,1,1,1,Fried Chicken,1
+108,46-55,Asia/Middle east,Woman,1,0,0,Salmon,1
+108,46-55,Asia/Middle east,Woman,1,0,0,Pasta,1
+108,46-55,Asia/Middle east,Woman,1,1,1,Steak,1
+108,46-55,Asia/Middle east,Woman,1,1,1,Dumpling,1
+108,46-55,Asia/Middle east,Woman,1,0,0,Sushi,1
+108,46-55,Asia/Middle east,Woman,0,1,1,Fried Rice,1
+108,46-55,Asia/Middle east,Woman,0,0,0,Salad,1
+109,36-45,Asia/Middle east,Man,1,0,0,Burger,1
+109,36-45,Asia/Middle east,Man,1,0,0,Taco,1
+109,36-45,Asia/Middle east,Man,1,1,1,Fried Chicken,1
+109,36-45,Asia/Middle east,Man,1,0,0,Salmon,1
+109,36-45,Asia/Middle east,Man,1,0,0,Pasta,1
+109,36-45,Asia/Middle east,Man,1,1,1,Steak,1
+109,36-45,Asia/Middle east,Man,0,0,0,Dumpling,1
+109,36-45,Asia/Middle east,Man,1,0,0,Sushi,1
+109,36-45,Asia/Middle east,Man,1,0,0,Fried Rice,1
+109,36-45,Asia/Middle east,Man,1,1,1,Salad,1
+110,26-35,Asia/Middle east,Woman,1,0,0,Burger,1
+110,26-35,Asia/Middle east,Woman,0,1,1,Taco,1
+110,26-35,Asia/Middle east,Woman,0,0,0,Fried Chicken,1
+110,26-35,Asia/Middle east,Woman,1,0,0,Salmon,1
+110,26-35,Asia/Middle east,Woman,0,1,1,Pasta,1
+110,26-35,Asia/Middle east,Woman,1,1,1,Steak,1
+110,26-35,Asia/Middle east,Woman,0,0,0,Dumpling,1
+110,26-35,Asia/Middle east,Woman,0,1,1,Sushi,1
+110,26-35,Asia/Middle east,Woman,1,0,0,Fried Rice,1
+110,26-35,Asia/Middle east,Woman,0,0,0,Salad,1
+111,26-35,Asia/Middle east,Woman,0,1,1,Burger,1
+111,26-35,Asia/Middle east,Woman,0,1,1,Taco,1
+111,26-35,Asia/Middle east,Woman,0,0,0,Fried Chicken,1
+111,26-35,Asia/Middle east,Woman,1,0,0,Salmon,1
+111,26-35,Asia/Middle east,Woman,1,0,0,Pasta,1
+111,26-35,Asia/Middle east,Woman,1,1,1,Steak,1
+111,26-35,Asia/Middle east,Woman,1,1,1,Dumpling,1
+111,26-35,Asia/Middle east,Woman,0,1,1,Sushi,1
+111,26-35,Asia/Middle east,Woman,1,0,0,Fried Rice,1
+111,26-35,Asia/Middle east,Woman,0,0,0,Salad,1
+112,46-55,Asia/Middle east,Man,1,0,0,Burger,1
+112,46-55,Asia/Middle east,Man,1,0,0,Taco,1
+112,46-55,Asia/Middle east,Man,1,1,1,Fried Chicken,1
+112,46-55,Asia/Middle east,Man,1,0,0,Salmon,1
+112,46-55,Asia/Middle east,Man,1,0,0,Pasta,1
+112,46-55,Asia/Middle east,Man,1,1,1,Steak,1
+112,46-55,Asia/Middle east,Man,1,1,1,Dumpling,1
+112,46-55,Asia/Middle east,Man,1,0,0,Sushi,1
+112,46-55,Asia/Middle east,Man,1,0,0,Fried Rice,1
+112,46-55,Asia/Middle east,Man,1,1,1,Salad,1
+113,16-25,North America/Central America,Man,0,1,1,Burger,1
+113,16-25,North America/Central America,Man,1,0,0,Taco,1
+113,16-25,North America/Central America,Man,1,1,1,Fried Chicken,1
+113,16-25,North America/Central America,Man,1,0,0,Salmon,1
+113,16-25,North America/Central America,Man,1,0,0,Pasta,1
+113,16-25,North America/Central America,Man,1,1,1,Steak,1
+113,16-25,North America/Central America,Man,1,1,1,Dumpling,1
+113,16-25,North America/Central America,Man,0,1,1,Sushi,1
+113,16-25,North America/Central America,Man,1,0,0,Fried Rice,1
+113,16-25,North America/Central America,Man,0,0,0,Salad,1
+114,16-25,North America/Central America,Man,0,1,1,Burger,1
+114,16-25,North America/Central America,Man,1,0,0,Taco,1
+114,16-25,North America/Central America,Man,1,1,1,Fried Chicken,1
+114,16-25,North America/Central America,Man,1,0,0,Salmon,1
+114,16-25,North America/Central America,Man,1,0,0,Pasta,1
+114,16-25,North America/Central America,Man,1,1,1,Steak,1
+114,16-25,North America/Central America,Man,1,1,1,Dumpling,1
+114,16-25,North America/Central America,Man,1,0,0,Sushi,1
+114,16-25,North America/Central America,Man,0,1,1,Fried Rice,1
+114,16-25,North America/Central America,Man,0,0,0,Salad,1
+115,46-55,Asia/Middle east,Woman,1,0,0,Burger,1
+115,46-55,Asia/Middle east,Woman,1,0,0,Taco,1
+115,46-55,Asia/Middle east,Woman,1,1,1,Fried Chicken,1
+115,46-55,Asia/Middle east,Woman,1,0,0,Salmon,1
+115,46-55,Asia/Middle east,Woman,0,1,1,Pasta,1
+115,46-55,Asia/Middle east,Woman,0,0,0,Steak,1
+115,46-55,Asia/Middle east,Woman,1,1,1,Dumpling,1
+115,46-55,Asia/Middle east,Woman,1,0,0,Sushi,1
+115,46-55,Asia/Middle east,Woman,1,0,0,Fried Rice,1
+115,46-55,Asia/Middle east,Woman,1,1,1,Salad,1
+116,26-35,Asia/Middle east,Man,0,1,1,Burger,1
+116,26-35,Asia/Middle east,Man,1,0,0,Taco,1
+116,26-35,Asia/Middle east,Man,1,1,1,Fried Chicken,1
+116,26-35,Asia/Middle east,Man,1,0,0,Salmon,1
+116,26-35,Asia/Middle east,Man,1,0,0,Pasta,1
+116,26-35,Asia/Middle east,Man,1,1,1,Steak,1
+116,26-35,Asia/Middle east,Man,0,0,0,Dumpling,1
+116,26-35,Asia/Middle east,Man,1,0,0,Sushi,1
+116,26-35,Asia/Middle east,Man,1,0,0,Fried Rice,1
+116,26-35,Asia/Middle east,Man,1,1,1,Salad,1
+117,16-25,Asia/Middle east,Woman,1,0,0,Burger,1
+117,16-25,Asia/Middle east,Woman,1,0,0,Taco,1
+117,16-25,Asia/Middle east,Woman,1,1,1,Fried Chicken,1
+117,16-25,Asia/Middle east,Woman,0,1,1,Salmon,1
+117,16-25,Asia/Middle east,Woman,1,0,0,Pasta,1
+117,16-25,Asia/Middle east,Woman,0,0,0,Steak,1
+117,16-25,Asia/Middle east,Woman,1,1,1,Dumpling,1
+117,16-25,Asia/Middle east,Woman,1,0,0,Sushi,1
+117,16-25,Asia/Middle east,Woman,1,0,0,Fried Rice,1
+117,16-25,Asia/Middle east,Woman,0,0,0,Salad,1
+118,26-35,Asia/Middle east,Man,1,0,0,Burger,1
+118,26-35,Asia/Middle east,Man,1,0,0,Taco,1
+118,26-35,Asia/Middle east,Man,1,1,1,Fried Chicken,1
+118,26-35,Asia/Middle east,Man,1,0,0,Salmon,1
+118,26-35,Asia/Middle east,Man,1,0,0,Pasta,1
+118,26-35,Asia/Middle east,Man,1,1,1,Steak,1
+118,26-35,Asia/Middle east,Man,1,1,1,Dumpling,1
+118,26-35,Asia/Middle east,Man,1,0,0,Sushi,1
+118,26-35,Asia/Middle east,Man,1,0,0,Fried Rice,1
+118,26-35,Asia/Middle east,Man,1,1,1,Salad,1
+119,16-25,Asia/Middle east,Woman,1,0,0,Burger,1
+119,16-25,Asia/Middle east,Woman,0,1,1,Taco,1
+119,16-25,Asia/Middle east,Woman,1,1,1,Fried Chicken,1
+119,16-25,Asia/Middle east,Woman,1,0,0,Salmon,1
+119,16-25,Asia/Middle east,Woman,0,1,1,Pasta,1
+119,16-25,Asia/Middle east,Woman,1,1,1,Steak,1
+119,16-25,Asia/Middle east,Woman,1,1,1,Dumpling,1
+119,16-25,Asia/Middle east,Woman,1,0,0,Sushi,1
+119,16-25,Asia/Middle east,Woman,1,0,0,Fried Rice,1
+119,16-25,Asia/Middle east,Woman,0,0,0,Salad,1
+120,16-25,Asia/Middle east,Man,0,1,1,Burger,1
+120,16-25,Asia/Middle east,Man,0,1,1,Taco,1
+120,16-25,Asia/Middle east,Man,1,1,1,Fried Chicken,1
+120,16-25,Asia/Middle east,Man,1,0,0,Salmon,1
+120,16-25,Asia/Middle east,Man,1,0,0,Pasta,1
+120,16-25,Asia/Middle east,Man,1,1,1,Steak,1
+120,16-25,Asia/Middle east,Man,1,1,1,Dumpling,1
+120,16-25,Asia/Middle east,Man,1,0,0,Sushi,1
+120,16-25,Asia/Middle east,Man,1,0,0,Fried Rice,1
+120,16-25,Asia/Middle east,Man,0,0,0,Salad,1
+121,16-25,Asia/Middle east,Woman,0,1,1,Burger,1
+121,16-25,Asia/Middle east,Woman,1,0,0,Taco,1
+121,16-25,Asia/Middle east,Woman,1,1,1,Fried Chicken,1
+121,16-25,Asia/Middle east,Woman,1,0,0,Salmon,1
+121,16-25,Asia/Middle east,Woman,1,0,0,Pasta,1
+121,16-25,Asia/Middle east,Woman,1,1,1,Steak,1
+121,16-25,Asia/Middle east,Woman,1,1,1,Dumpling,1
+121,16-25,Asia/Middle east,Woman,1,0,0,Sushi,1
+121,16-25,Asia/Middle east,Woman,1,0,0,Fried Rice,1
+121,16-25,Asia/Middle east,Woman,1,1,1,Salad,1
+122,26-35,Asia/Middle east,Man,1,0,0,Burger,1
+122,26-35,Asia/Middle east,Man,1,0,0,Taco,1
+122,26-35,Asia/Middle east,Man,1,1,1,Fried Chicken,1
+122,26-35,Asia/Middle east,Man,1,0,0,Salmon,1
+122,26-35,Asia/Middle east,Man,1,0,0,Pasta,1
+122,26-35,Asia/Middle east,Man,1,1,1,Steak,1
+122,26-35,Asia/Middle east,Man,1,1,1,Dumpling,1
+122,26-35,Asia/Middle east,Man,1,0,0,Sushi,1
+122,26-35,Asia/Middle east,Man,1,0,0,Fried Rice,1
+122,26-35,Asia/Middle east,Man,1,1,1,Salad,1
+123,16-25,Asia/Middle east,Man,0,1,1,Burger,1
+123,16-25,Asia/Middle east,Man,1,0,0,Taco,1
+123,16-25,Asia/Middle east,Man,1,1,1,Fried Chicken,1
+123,16-25,Asia/Middle east,Man,1,0,0,Salmon,1
+123,16-25,Asia/Middle east,Man,1,0,0,Pasta,1
+123,16-25,Asia/Middle east,Man,1,1,1,Steak,1
+123,16-25,Asia/Middle east,Man,1,1,1,Dumpling,1
+123,16-25,Asia/Middle east,Man,0,1,1,Sushi,1
+123,16-25,Asia/Middle east,Man,1,0,0,Fried Rice,1
+123,16-25,Asia/Middle east,Man,1,1,1,Salad,1
+124,46-55,Europe,Woman,1,0,0,Burger,1
+124,46-55,Europe,Woman,0,1,1,Taco,1
+124,46-55,Europe,Woman,1,1,1,Fried Chicken,1
+124,46-55,Europe,Woman,1,0,0,Salmon,1
+124,46-55,Europe,Woman,0,1,1,Pasta,1
+124,46-55,Europe,Woman,1,1,1,Steak,1
+124,46-55,Europe,Woman,1,1,1,Dumpling,1
+124,46-55,Europe,Woman,1,0,0,Sushi,1
+124,46-55,Europe,Woman,1,0,0,Fried Rice,1
+124,46-55,Europe,Woman,0,0,0,Salad,1
+125,16-25,Asia/Middle east,Woman,1,0,0,Burger,1
+125,16-25,Asia/Middle east,Woman,1,0,0,Taco,1
+125,16-25,Asia/Middle east,Woman,1,1,1,Fried Chicken,1
+125,16-25,Asia/Middle east,Woman,1,0,0,Salmon,1
+125,16-25,Asia/Middle east,Woman,0,1,1,Pasta,1
+125,16-25,Asia/Middle east,Woman,1,1,1,Steak,1
+125,16-25,Asia/Middle east,Woman,1,1,1,Dumpling,1
+125,16-25,Asia/Middle east,Woman,0,1,1,Sushi,1
+125,16-25,Asia/Middle east,Woman,1,0,0,Fried Rice,1
+125,16-25,Asia/Middle east,Woman,1,1,1,Salad,1
+126,16-25,Australia/New Zealand,Woman,1,0,0,Burger,1
+126,16-25,Australia/New Zealand,Woman,1,0,0,Taco,1
+126,16-25,Australia/New Zealand,Woman,1,1,1,Fried Chicken,1
+126,16-25,Australia/New Zealand,Woman,1,0,0,Salmon,1
+126,16-25,Australia/New Zealand,Woman,1,0,0,Pasta,1
+126,16-25,Australia/New Zealand,Woman,1,1,1,Steak,1
+126,16-25,Australia/New Zealand,Woman,1,1,1,Dumpling,1
+126,16-25,Australia/New Zealand,Woman,1,0,0,Sushi,1
+126,16-25,Australia/New Zealand,Woman,1,0,0,Fried Rice,1
+126,16-25,Australia/New Zealand,Woman,1,1,1,Salad,1
+127,16-25,Asia/Middle east,Man,1,0,0,Burger,1
+127,16-25,Asia/Middle east,Man,0,1,1,Taco,1
+127,16-25,Asia/Middle east,Man,1,1,1,Fried Chicken,1
+127,16-25,Asia/Middle east,Man,1,0,0,Salmon,1
+127,16-25,Asia/Middle east,Man,0,1,1,Pasta,1
+127,16-25,Asia/Middle east,Man,1,1,1,Steak,1
+127,16-25,Asia/Middle east,Man,1,1,1,Dumpling,1
+127,16-25,Asia/Middle east,Man,0,1,1,Sushi,1
+127,16-25,Asia/Middle east,Man,0,1,1,Fried Rice,1
+127,16-25,Asia/Middle east,Man,1,1,1,Salad,1
+128,16-25,North America/Central America,Woman,1,0,0,Burger,1
+128,16-25,North America/Central America,Woman,1,0,0,Taco,1
+128,16-25,North America/Central America,Woman,0,0,0,Fried Chicken,1
+128,16-25,North America/Central America,Woman,1,0,0,Salmon,1
+128,16-25,North America/Central America,Woman,1,0,0,Pasta,1
+128,16-25,North America/Central America,Woman,1,1,1,Steak,1
+128,16-25,North America/Central America,Woman,1,1,1,Dumpling,1
+128,16-25,North America/Central America,Woman,0,1,1,Sushi,1
+128,16-25,North America/Central America,Woman,1,0,0,Fried Rice,1
+128,16-25,North America/Central America,Woman,1,1,1,Salad,1
+129,16-25,Asia/Middle east,Woman,0,1,1,Burger,1
+129,16-25,Asia/Middle east,Woman,0,1,1,Taco,1
+129,16-25,Asia/Middle east,Woman,0,0,0,Fried Chicken,1
+129,16-25,Asia/Middle east,Woman,1,0,0,Salmon,1
+129,16-25,Asia/Middle east,Woman,0,1,1,Pasta,1
+129,16-25,Asia/Middle east,Woman,0,0,0,Steak,1
+129,16-25,Asia/Middle east,Woman,1,1,1,Dumpling,1
+129,16-25,Asia/Middle east,Woman,0,1,1,Sushi,1
+129,16-25,Asia/Middle east,Woman,1,0,0,Fried Rice,1
+129,16-25,Asia/Middle east,Woman,0,0,0,Salad,1
+130,26-35,Europe,Man,1,0,0,Burger,1
+130,26-35,Europe,Man,1,0,0,Taco,1
+130,26-35,Europe,Man,1,1,1,Fried Chicken,1
+130,26-35,Europe,Man,1,0,0,Salmon,1
+130,26-35,Europe,Man,1,0,0,Pasta,1
+130,26-35,Europe,Man,1,1,1,Steak,1
+130,26-35,Europe,Man,1,1,1,Dumpling,1
+130,26-35,Europe,Man,0,1,1,Sushi,1
+130,26-35,Europe,Man,1,0,0,Fried Rice,1
+131,26-35,Europe,Man,0,0,0,Salad,1
+131,26-35,Europe,Man,1,0,0,Burger,1
+131,26-35,Europe,Man,0,1,1,Taco,1
+131,26-35,Europe,Man,0,0,0,Fried Chicken,1
+131,26-35,Europe,Man,1,0,0,Salmon,1
+131,26-35,Europe,Man,0,1,1,Pasta,1
+131,26-35,Europe,Man,1,1,1,Steak,1
+131,26-35,Europe,Man,1,1,1,Dumpling,1
+131,26-35,Europe,Man,1,0,0,Sushi,1
+131,26-35,Europe,Man,1,0,0,Fried Rice,1
+131,26-35,Europe,Man,0,0,0,Salad,1
+132,16-25,Europe,Man,1,0,0,Burger,1
+132,16-25,Europe,Man,1,0,0,Taco,1
+132,16-25,Europe,Man,0,0,0,Fried Chicken,1
+132,16-25,Europe,Man,1,0,0,Salmon,1
+132,16-25,Europe,Man,0,1,1,Pasta,1
+132,16-25,Europe,Man,0,0,0,Steak,1
+132,16-25,Europe,Man,1,1,1,Dumpling,1
+132,16-25,Europe,Man,0,1,1,Sushi,1
+132,16-25,Europe,Man,1,0,0,Fried Rice,1
+132,16-25,Europe,Man,1,1,1,Salad,1
+133,16-25,North America/Central America,Man,1,0,0,Burger,1
+133,16-25,North America/Central America,Man,1,0,0,Taco,1
+133,16-25,North America/Central America,Man,0,0,0,Fried Chicken,1
+133,16-25,North America/Central America,Man,1,0,0,Salmon,1
+133,16-25,North America/Central America,Man,1,0,0,Pasta,1
+133,16-25,North America/Central America,Man,1,1,1,Steak,1
+133,16-25,North America/Central America,Man,1,1,1,Dumpling,1
+133,16-25,North America/Central America,Man,0,1,1,Sushi,1
+133,16-25,North America/Central America,Man,1,0,0,Fried Rice,1
+133,16-25,North America/Central America,Man,0,0,0,Salad,1
+134,16-25,North America/Central America,Man,1,0,0,Burger,1
+134,16-25,North America/Central America,Man,1,0,0,Taco,1
+134,16-25,North America/Central America,Man,0,0,0,Fried Chicken,1
+134,16-25,North America/Central America,Man,1,0,0,Salmon,1
+134,16-25,North America/Central America,Man,1,0,0,Pasta,1
+134,16-25,North America/Central America,Man,1,1,1,Steak,1
+134,16-25,North America/Central America,Man,1,1,1,Dumpling,1
+134,16-25,North America/Central America,Man,1,0,0,Sushi,1
+134,16-25,North America/Central America,Man,1,0,0,Fried Rice,1
+134,16-25,North America/Central America,Man,0,0,0,Salad,1
+135,16-25,Asia/Middle east,Woman,1,0,0,Burger,1
+135,16-25,Asia/Middle east,Woman,1,0,0,Taco,1
+135,16-25,Asia/Middle east,Woman,0,0,0,Fried Chicken,1
+135,16-25,Asia/Middle east,Woman,1,0,0,Salmon,1
+135,16-25,Asia/Middle east,Woman,1,0,0,Pasta,1
+135,16-25,Asia/Middle east,Woman,0,0,0,Steak,1
+135,16-25,Asia/Middle east,Woman,1,1,1,Dumpling,1
+135,16-25,Asia/Middle east,Woman,0,1,1,Sushi,1
+135,16-25,Asia/Middle east,Woman,1,0,0,Fried Rice,1
+135,16-25,Asia/Middle east,Woman,0,0,0,Salad,1
+136,16-25,Europe,Man,1,0,0,Burger,1
+136,16-25,Europe,Man,1,0,0,Taco,1
+136,16-25,Europe,Man,0,0,0,Fried Chicken,1
+136,16-25,Europe,Man,1,0,0,Salmon,1
+136,16-25,Europe,Man,0,1,1,Pasta,1
+136,16-25,Europe,Man,1,1,1,Steak,1
+136,16-25,Europe,Man,1,1,1,Dumpling,1
+136,16-25,Europe,Man,1,0,0,Sushi,1
+136,16-25,Europe,Man,1,0,0,Fried Rice,1
+136,16-25,Europe,Man,1,1,1,Salad,1
+137,16-25,Asia/Middle east,Woman,1,0,0,Burger,1
+137,16-25,Asia/Middle east,Woman,1,0,0,Taco,1
+137,16-25,Asia/Middle east,Woman,0,0,0,Fried Chicken,1
+137,16-25,Asia/Middle east,Woman,1,0,0,Salmon,1
+137,16-25,Asia/Middle east,Woman,1,0,0,Pasta,1
+137,16-25,Asia/Middle east,Woman,0,0,0,Steak,1
+137,16-25,Asia/Middle east,Woman,1,1,1,Dumpling,1
+137,16-25,Asia/Middle east,Woman,1,0,0,Sushi,1
+137,16-25,Asia/Middle east,Woman,1,0,0,Fried Rice,1
+137,16-25,Asia/Middle east,Woman,1,1,1,Salad,1
+138,26-35,Europe,Man,1,0,0,Burger,1
+138,26-35,Europe,Man,1,0,0,Taco,1
+138,26-35,Europe,Man,1,1,1,Fried Chicken,1
+138,26-35,Europe,Man,1,0,0,Salmon,1
+138,26-35,Europe,Man,0,1,1,Pasta,1
+138,26-35,Europe,Man,0,0,0,Steak,1
+138,26-35,Europe,Man,1,1,1,Dumpling,1
+138,26-35,Europe,Man,0,1,1,Sushi,1
+138,26-35,Europe,Man,1,0,0,Fried Rice,1
+138,26-35,Europe,Man,0,0,0,Salad,1
+139,16-25,North America/Central America,Man,1,0,0,Burger,1
+139,16-25,North America/Central America,Man,1,0,0,Taco,1
+139,16-25,North America/Central America,Man,0,0,0,Fried Chicken,1
+139,16-25,North America/Central America,Man,1,0,0,Salmon,1
+139,16-25,North America/Central America,Man,0,1,1,Pasta,1
+139,16-25,North America/Central America,Man,0,0,0,Steak,1
+139,16-25,North America/Central America,Man,1,1,1,Dumpling,1
+139,16-25,North America/Central America,Man,1,0,0,Sushi,1
+139,16-25,North America/Central America,Man,0,1,1,Fried Rice,1
+139,16-25,North America/Central America,Man,1,1,1,Salad,1
+140,16-25,Asia/Middle east,Man,0,1,1,Burger,1
+140,16-25,Asia/Middle east,Man,1,0,0,Taco,1
+140,16-25,Asia/Middle east,Man,1,1,1,Fried Chicken,1
+140,16-25,Asia/Middle east,Man,1,0,0,Salmon,1
+140,16-25,Asia/Middle east,Man,0,1,1,Pasta,1
+140,16-25,Asia/Middle east,Man,1,1,1,Steak,1
+140,16-25,Asia/Middle east,Man,0,0,0,Dumpling,1
+140,16-25,Asia/Middle east,Man,1,0,0,Sushi,1
+140,16-25,Asia/Middle east,Man,1,0,0,Fried Rice,1
+140,16-25,Asia/Middle east,Man,0,0,0,Salad,1
+141,16-25,North America/Central America,Woman,1,0,0,Burger,1
+141,16-25,North America/Central America,Woman,1,0,0,Taco,1
+141,16-25,North America/Central America,Woman,0,0,0,Fried Chicken,1
+141,16-25,North America/Central America,Woman,1,0,0,Salmon,1
+141,16-25,North America/Central America,Woman,0,1,1,Pasta,1
+141,16-25,North America/Central America,Woman,1,1,1,Steak,1
+141,16-25,North America/Central America,Woman,1,1,1,Dumpling,1
+141,16-25,North America/Central America,Woman,1,0,0,Sushi,1
+141,16-25,North America/Central America,Woman,1,0,0,Fried Rice,1
+141,16-25,North America/Central America,Woman,0,0,0,Salad,1
+142,16-25,North America/Central America,Man,1,0,0,Burger,1
+142,16-25,North America/Central America,Man,1,0,0,Taco,1
+142,16-25,North America/Central America,Man,1,1,1,Fried Chicken,1
+142,16-25,North America/Central America,Man,1,0,0,Salmon,1
+142,16-25,North America/Central America,Man,1,0,0,Pasta,1
+142,16-25,North America/Central America,Man,1,1,1,Steak,1
+142,16-25,North America/Central America,Man,1,1,1,Dumpling,1
+142,16-25,North America/Central America,Man,0,1,1,Sushi,1
+142,16-25,North America/Central America,Man,1,0,0,Fried Rice,1
+142,16-25,North America/Central America,Man,0,0,0,Salad,1
+143,16-25,North America/Central America,Man,0,1,1,Burger,1
+143,16-25,North America/Central America,Man,1,0,0,Taco,1
+143,16-25,North America/Central America,Man,1,1,1,Fried Chicken,1
+143,16-25,North America/Central America,Man,1,0,0,Salmon,1
+143,16-25,North America/Central America,Man,1,0,0,Pasta,1
+143,16-25,North America/Central America,Man,1,1,1,Steak,1
+143,16-25,North America/Central America,Man,1,1,1,Dumpling,1
+143,16-25,North America/Central America,Man,1,0,0,Sushi,1
+143,16-25,North America/Central America,Man,1,0,0,Fried Rice,1
+143,16-25,North America/Central America,Man,1,1,1,Salad,1
+144,16-25,North America/Central America,Woman,1,0,0,Burger,1
+144,16-25,North America/Central America,Woman,1,0,0,Taco,1
+144,16-25,North America/Central America,Woman,1,1,1,Fried Chicken,1
+144,16-25,North America/Central America,Woman,1,0,0,Salmon,1
+144,16-25,North America/Central America,Woman,1,0,0,Pasta,1
+144,16-25,North America/Central America,Woman,1,1,1,Steak,1
+144,16-25,North America/Central America,Woman,0,0,0,Dumpling,1
+144,16-25,North America/Central America,Woman,0,1,1,Sushi,1
+144,16-25,North America/Central America,Woman,0,1,1,Fried Rice,1
+144,16-25,North America/Central America,Woman,0,0,0,Salad,1
+145,16-25,Asia/Middle east,Man,0,1,1,Burger,1
+145,16-25,Asia/Middle east,Man,1,0,0,Taco,1
+145,16-25,Asia/Middle east,Man,0,0,0,Fried Chicken,1
+145,16-25,Asia/Middle east,Man,1,0,0,Salmon,1
+145,16-25,Asia/Middle east,Man,0,1,1,Pasta,1
+145,16-25,Asia/Middle east,Man,1,1,1,Steak,1
+145,16-25,Asia/Middle east,Man,1,1,1,Dumpling,1
+145,16-25,Asia/Middle east,Man,0,1,1,Sushi,1
+145,16-25,Asia/Middle east,Man,1,0,0,Fried Rice,1
+145,16-25,Asia/Middle east,Man,0,0,0,Salad,1
+146,46-55,Europe,Woman,1,0,0,Burger,1
+146,46-55,Europe,Woman,1,0,0,Taco,1
+146,46-55,Europe,Woman,1,1,1,Fried Chicken,1
+146,46-55,Europe,Woman,1,0,0,Salmon,1
+146,46-55,Europe,Woman,0,1,1,Pasta,1
+146,46-55,Europe,Woman,1,1,1,Steak,1
+146,46-55,Europe,Woman,1,1,1,Dumpling,1
+146,46-55,Europe,Woman,1,0,0,Sushi,1
+146,46-55,Europe,Woman,1,0,0,Fried Rice,1
+146,46-55,Europe,Woman,0,0,0,Salad,1
+147,16-25,Asia/Middle east,Man,0,1,1,Burger,1
+147,16-25,Asia/Middle east,Man,1,0,0,Taco,1
+147,16-25,Asia/Middle east,Man,1,1,1,Fried Chicken,1
+147,16-25,Asia/Middle east,Man,1,0,0,Salmon,1
+147,16-25,Asia/Middle east,Man,1,0,0,Pasta,1
+147,16-25,Asia/Middle east,Man,1,1,1,Steak,1
+147,16-25,Asia/Middle east,Man,1,1,1,Dumpling,1
+147,16-25,Asia/Middle east,Man,0,1,1,Sushi,1
+147,16-25,Asia/Middle east,Man,1,0,0,Fried Rice,1
+147,16-25,Asia/Middle east,Man,0,0,0,Salad,1
+148,16-25,North America/Central America,Woman,1,0,0,Burger,1
+148,16-25,North America/Central America,Woman,1,0,0,Taco,1
+148,16-25,North America/Central America,Woman,1,1,1,Fried Chicken,1
+148,16-25,North America/Central America,Woman,1,0,0,Salmon,1
+148,16-25,North America/Central America,Woman,1,0,0,Pasta,1
+148,16-25,North America/Central America,Woman,1,1,1,Steak,1
+148,16-25,North America/Central America,Woman,1,1,1,Dumpling,1
+148,16-25,North America/Central America,Woman,0,1,1,Sushi,1
+148,16-25,North America/Central America,Woman,1,0,0,Fried Rice,1
+148,16-25,North America/Central America,Woman,1,1,1,Salad,1
+149,16-25,Asia/Middle east,Man,1,0,0,Burger,1
+149,16-25,Asia/Middle east,Man,1,0,0,Taco,1
+149,16-25,Asia/Middle east,Man,0,0,0,Fried Chicken,1
+149,16-25,Asia/Middle east,Man,1,0,0,Salmon,1
+149,16-25,Asia/Middle east,Man,1,0,0,Pasta,1
+149,16-25,Asia/Middle east,Man,0,0,0,Steak,1
+149,16-25,Asia/Middle east,Man,1,1,1,Dumpling,1
+149,16-25,Asia/Middle east,Man,1,0,0,Sushi,1
+149,16-25,Asia/Middle east,Man,1,0,0,Fried Rice,1
+149,16-25,Asia/Middle east,Man,1,1,1,Salad,1
+150,16-25,Asia/Middle east,Woman,0,1,1,Burger,1
+150,16-25,Asia/Middle east,Woman,1,0,0,Taco,1
+150,16-25,Asia/Middle east,Woman,1,1,1,Fried Chicken,1
+150,16-25,Asia/Middle east,Woman,1,0,0,Salmon,1
+150,16-25,Asia/Middle east,Woman,1,0,0,Pasta,1
+150,16-25,Asia/Middle east,Woman,1,1,1,Steak,1
+150,16-25,Asia/Middle east,Woman,1,1,1,Dumpling,1
+150,16-25,Asia/Middle east,Woman,0,1,1,Sushi,1
+150,16-25,Asia/Middle east,Woman,1,0,0,Fried Rice,1
+150,16-25,Asia/Middle east,Woman,0,0,0,Salad,1
+151,16-25,Asia/Middle east,Woman,1,0,0,Burger,1
+151,16-25,Asia/Middle east,Woman,1,0,0,Taco,1
+151,16-25,Asia/Middle east,Woman,0,0,0,Fried Chicken,1
+151,16-25,Asia/Middle east,Woman,1,0,0,Salmon,1
+151,16-25,Asia/Middle east,Woman,1,1,1,Pasta,1
+151,16-25,Asia/Middle east,Woman,0,0,0,Steak,1
+151,16-25,Asia/Middle east,Woman,1,1,1,Dumpling,1
+151,16-25,Asia/Middle east,Woman,0,1,1,Sushi,1
+151,16-25,Asia/Middle east,Woman,1,0,0,Fried Rice,1
+151,16-25,Asia/Middle east,Woman,0,0,0,Salad,1
+152,16-25,Australia/New Zealand,Man,0,1,1,Burger,1
+152,16-25,Australia/New Zealand,Man,1,0,0,Taco,1
+152,16-25,Australia/New Zealand,Man,1,1,1,Fried Chicken,1
+152,16-25,Australia/New Zealand,Man,1,0,0,Salmon,1
+152,16-25,Australia/New Zealand,Man,1,0,0,Pasta,1
+152,16-25,Australia/New Zealand,Man,1,1,1,Steak,1
+152,16-25,Australia/New Zealand,Man,0,0,0,Dumpling,1
+152,16-25,Australia/New Zealand,Man,1,0,0,Sushi,1
+152,16-25,Australia/New Zealand,Man,1,0,0,Fried Rice,1
+152,16-25,Australia/New Zealand,Man,1,1,1,Salad,1
+153,16-25,Asia/Middle east,Man,1,0,0,Burger,1
+153,16-25,Asia/Middle east,Man,0,1,1,Taco,1
+153,16-25,Asia/Middle east,Man,1,1,1,Fried Chicken,1
+153,16-25,Asia/Middle east,Man,0,1,1,Salmon,1
+153,16-25,Asia/Middle east,Man,1,0,0,Pasta,1
+153,16-25,Asia/Middle east,Man,0,0,0,Steak,1
+153,16-25,Asia/Middle east,Man,1,1,1,Dumpling,1
+153,16-25,Asia/Middle east,Man,0,1,1,Sushi,1
+153,16-25,Asia/Middle east,Man,1,0,0,Fried Rice,1
+153,16-25,Asia/Middle east,Man,0,0,0,Salad,1
+154,46-55,Europe,Woman,1,0,0,Burger,1
+154,46-55,Europe,Woman,1,0,0,Taco,1
+154,46-55,Europe,Woman,1,1,1,Fried Chicken,1
+154,46-55,Europe,Woman,1,0,0,Salmon,1
+154,46-55,Europe,Woman,0,1,1,Pasta,1
+154,46-55,Europe,Woman,0,0,0,Steak,1
+154,46-55,Europe,Woman,1,1,1,Dumpling,1
+154,46-55,Europe,Woman,1,0,0,Sushi,1
+154,46-55,Europe,Woman,1,0,0,Fried Rice,1
+154,46-55,Europe,Woman,0,0,0,Salad,1
+155,16-25,North America/Central America,Woman,0,1,1,Burger,1
+155,16-25,North America/Central America,Woman,1,0,0,Taco,1
+155,16-25,North America/Central America,Woman,1,1,1,Fried Chicken,1
+155,16-25,North America/Central America,Woman,0,1,1,Salmon,1
+155,16-25,North America/Central America,Woman,1,0,0,Pasta,1
+155,16-25,North America/Central America,Woman,1,1,1,Steak,1
+155,16-25,North America/Central America,Woman,1,1,1,Dumpling,1
+155,16-25,North America/Central America,Woman,0,1,1,Sushi,1
+155,16-25,North America/Central America,Woman,1,0,0,Fried Rice,1
+155,16-25,North America/Central America,Woman,0,0,0,Salad,1
+156,16-25,Asia/Middle east,Man,1,0,0,Burger,1
+156,16-25,Asia/Middle east,Man,1,0,0,Taco,1
+156,16-25,Asia/Middle east,Man,0,0,0,Fried Chicken,1
+156,16-25,Asia/Middle east,Man,0,1,1,Salmon,1
+156,16-25,Asia/Middle east,Man,0,1,1,Pasta,1
+156,16-25,Asia/Middle east,Man,0,0,0,Steak,1
+156,16-25,Asia/Middle east,Man,1,1,1,Dumpling,1
+156,16-25,Asia/Middle east,Man,0,1,1,Sushi,1
+156,16-25,Asia/Middle east,Man,1,0,0,Fried Rice,1
+156,16-25,Asia/Middle east,Man,1,1,1,Salad,1
+157,46-55,Europe,Woman,0,1,1,Burger,1
+157,46-55,Europe,Woman,0,1,1,Taco,1
+157,46-55,Europe,Woman,1,1,1,Fried Chicken,1
+157,46-55,Europe,Woman,1,0,0,Salmon,1
+157,46-55,Europe,Woman,0,1,1,Pasta,1
+157,46-55,Europe,Woman,1,1,1,Steak,1
+157,46-55,Europe,Woman,1,1,1,Dumpling,1
+157,46-55,Europe,Woman,0,1,1,Sushi,1
+157,46-55,Europe,Woman,1,0,0,Fried Rice,1
+157,46-55,Europe,Woman,0,0,0,Salad,1
+158,16-25,Asia/Middle east,Man,1,0,0,Burger,1
+158,16-25,Asia/Middle east,Man,1,0,0,Taco,1
+158,16-25,Asia/Middle east,Man,0,0,0,Fried Chicken,1
+158,16-25,Asia/Middle east,Man,1,0,0,Salmon,1
+158,16-25,Asia/Middle east,Man,1,0,0,Pasta,1
+158,16-25,Asia/Middle east,Man,0,0,0,Steak,1
+158,16-25,Asia/Middle east,Man,1,1,1,Dumpling,1
+158,16-25,Asia/Middle east,Man,1,0,0,Sushi,1
+158,16-25,Asia/Middle east,Man,1,0,0,Fried Rice,1
+158,16-25,Asia/Middle east,Man,1,1,1,Salad,1
+159,16-25,Asia/Middle east,Woman,1,0,0,Burger,1
+159,16-25,Asia/Middle east,Woman,1,0,0,Taco,1
+159,16-25,Asia/Middle east,Woman,1,1,1,Fried Chicken,1
+159,16-25,Asia/Middle east,Woman,1,0,0,Salmon,1
+159,16-25,Asia/Middle east,Woman,1,0,0,Pasta,1
+159,16-25,Asia/Middle east,Woman,0,0,0,Steak,1
+159,16-25,Asia/Middle east,Woman,1,1,1,Dumpling,1
+159,16-25,Asia/Middle east,Woman,0,1,1,Sushi,1
+159,16-25,Asia/Middle east,Woman,0,1,1,Fried Rice,1
+159,16-25,Asia/Middle east,Woman,1,1,1,Salad,1
+160,16-25,Asia/Middle east,Woman,0,1,1,Burger,1
+160,16-25,Asia/Middle east,Woman,1,0,0,Taco,1
+160,16-25,Asia/Middle east,Woman,0,0,0,Fried Chicken,1
+160,16-25,Asia/Middle east,Woman,1,0,0,Salmon,1
+160,16-25,Asia/Middle east,Woman,0,1,1,Pasta,1
+160,16-25,Asia/Middle east,Woman,1,1,1,Steak,1
+160,16-25,Asia/Middle east,Woman,1,1,1,Dumpling,1
+160,16-25,Asia/Middle east,Woman,0,1,1,Sushi,1
+160,16-25,Asia/Middle east,Woman,1,0,0,Fried Rice,1
+160,16-25,Asia/Middle east,Woman,1,1,1,Salad,1
+161,16-25,Asia/Middle east,Man,1,0,0,Burger,1
+161,16-25,Asia/Middle east,Man,1,0,0,Taco,1
+161,16-25,Asia/Middle east,Man,0,0,0,Fried Chicken,1
+161,16-25,Asia/Middle east,Man,1,0,0,Salmon,1
+161,16-25,Asia/Middle east,Man,1,0,0,Pasta,1
+161,16-25,Asia/Middle east,Man,1,1,1,Steak,1
+161,16-25,Asia/Middle east,Man,0,0,0,Dumpling,1
+161,16-25,Asia/Middle east,Man,0,1,1,Sushi,1
+161,16-25,Asia/Middle east,Man,1,0,0,Fried Rice,1
+161,16-25,Asia/Middle east,Man,0,0,0,Salad,1
+162,16-25,Europe,Woman,1,0,0,Burger,1
+162,16-25,Europe,Woman,1,0,0,Taco,1
+162,16-25,Europe,Woman,1,1,1,Fried Chicken,1
+162,16-25,Europe,Woman,1,0,0,Salmon,1
+162,16-25,Europe,Woman,0,1,1,Pasta,1
+162,16-25,Europe,Woman,0,0,0,Steak,1
+162,16-25,Europe,Woman,1,1,1,Dumpling,1
+162,16-25,Europe,Woman,1,0,0,Sushi,1
+162,16-25,Europe,Woman,1,0,0,Fried Rice,1
+162,16-25,Europe,Woman,1,1,1,Salad,1
+163,16-25,North America/Central America,Man,1,0,0,Burger,1
+163,16-25,North America/Central America,Man,1,0,0,Taco,1
+163,16-25,North America/Central America,Man,1,1,1,Fried Chicken,1
+163,16-25,North America/Central America,Man,1,0,0,Salmon,1
+163,16-25,North America/Central America,Man,0,1,1,Pasta,1
+163,16-25,North America/Central America,Man,1,1,1,Steak,1
+163,16-25,North America/Central America,Man,1,1,1,Dumpling,1
+163,16-25,North America/Central America,Man,0,1,1,Sushi,1
+163,16-25,North America/Central America,Man,1,0,0,Fried Rice,1
+163,16-25,North America/Central America,Man,0,0,0,Salad,1
+164,26-35,Asia/Middle east,Woman,1,0,0,Burger,1
+164,26-35,Asia/Middle east,Woman,1,0,0,Taco,1
+164,26-35,Asia/Middle east,Woman,1,1,1,Fried Chicken,1
+164,26-35,Asia/Middle east,Woman,1,0,0,Salmon,1
+164,26-35,Asia/Middle east,Woman,1,0,0,Pasta,1
+164,26-35,Asia/Middle east,Woman,0,0,0,Steak,1
+164,26-35,Asia/Middle east,Woman,1,1,1,Dumpling,1
+164,26-35,Asia/Middle east,Woman,0,1,1,Sushi,1
+164,26-35,Asia/Middle east,Woman,1,0,0,Fried Rice,1
+164,26-35,Asia/Middle east,Woman,1,1,1,Salad,1
+165,56-65,North America/Central America,Woman,1,0,0,Burger,1
+165,56-65,North America/Central America,Woman,1,0,0,Taco,1
+165,56-65,North America/Central America,Woman,0,0,0,Fried Chicken,1
+165,56-65,North America/Central America,Woman,1,0,0,Salmon,1
+165,56-65,North America/Central America,Woman,1,0,0,Pasta,1
+165,56-65,North America/Central America,Woman,1,1,1,Steak,1
+165,56-65,North America/Central America,Woman,1,1,1,Dumpling,1
+165,56-65,North America/Central America,Woman,0,1,1,Sushi,1
+165,56-65,North America/Central America,Woman,1,0,0,Fried Rice,1
+165,56-65,North America/Central America,Woman,0,0,0,Salad,1
+166,16-25,Asia/Middle east,Man,1,0,0,Burger,1
+166,16-25,Asia/Middle east,Man,1,0,0,Taco,1
+166,16-25,Asia/Middle east,Man,0,0,0,Fried Chicken,1
+166,16-25,Asia/Middle east,Man,1,0,0,Salmon,1
+166,16-25,Asia/Middle east,Man,1,0,0,Pasta,1
+166,16-25,Asia/Middle east,Man,1,1,1,Steak,1
+166,16-25,Asia/Middle east,Man,1,1,1,Dumpling,1
+166,16-25,Asia/Middle east,Man,0,1,1,Sushi,1
+166,16-25,Asia/Middle east,Man,1,0,0,Fried Rice,1
+166,16-25,Asia/Middle east,Man,0,0,0,Salad,1
+167,26-35,Europe,Woman,1,0,0,Burger,1
+167,26-35,Europe,Woman,1,0,0,Taco,1
+167,26-35,Europe,Woman,0,0,0,Fried Chicken,1
+167,26-35,Europe,Woman,1,0,0,Salmon,1
+167,26-35,Europe,Woman,1,0,0,Pasta,1
+167,26-35,Europe,Woman,0,0,0,Steak,1
+167,26-35,Europe,Woman,1,1,1,Dumpling,1
+167,26-35,Europe,Woman,0,1,1,Sushi,1
+167,26-35,Europe,Woman,1,0,0,Fried Rice,1
+167,26-35,Europe,Woman,0,0,0,Salad,1
+168,26-35,Europe,Man,1,0,0,Burger,1
+168,26-35,Europe,Man,1,0,0,Taco,1
+168,26-35,Europe,Man,0,0,0,Fried Chicken,1
+168,26-35,Europe,Man,1,0,0,Salmon,1
+168,26-35,Europe,Man,1,0,0,Pasta,1
+168,26-35,Europe,Man,1,1,1,Steak,1
+168,26-35,Europe,Man,1,1,1,Dumpling,1
+168,26-35,Europe,Man,1,0,0,Sushi,1
+168,26-35,Europe,Man,1,0,0,Fried Rice,1
+168,26-35,Europe,Man,0,0,0,Salad,1
+170,16-25,North America/Central America,Woman,1,0,0,Burger,1
+170,16-25,North America/Central America,Woman,1,0,0,Taco,1
+170,16-25,North America/Central America,Woman,0,0,0,Fried Chicken,1
+170,16-25,North America/Central America,Woman,1,0,0,Salmon,1
+170,16-25,North America/Central America,Woman,0,1,1,Pasta,1
+170,16-25,North America/Central America,Woman,1,0,0,Steak,1
+170,16-25,North America/Central America,Woman,1,1,1,Dumpling,1
+170,16-25,North America/Central America,Woman,1,0,0,Sushi,1
+170,16-25,North America/Central America,Woman,1,0,0,Fried Rice,1
+170,16-25,North America/Central America,Woman,0,0,0,Salad,1
+171,16-25,Asia/Middle east,Woman,0,1,1,Burger,1
+171,16-25,Asia/Middle east,Woman,0,1,1,Taco,1
+171,16-25,Asia/Middle east,Woman,1,1,1,Fried Chicken,1
+171,16-25,Asia/Middle east,Woman,1,0,0,Salmon,1
+171,16-25,Asia/Middle east,Woman,0,1,1,Pasta,1
+171,16-25,Asia/Middle east,Woman,0,0,0,Steak,1
+171,16-25,Asia/Middle east,Woman,1,1,1,Dumpling,1
+171,16-25,Asia/Middle east,Woman,0,1,1,Sushi,1
+171,16-25,Asia/Middle east,Woman,1,0,0,Fried Rice,1
+171,16-25,Asia/Middle east,Woman,0,0,0,Salad,1
+172,26-35,Europe,Man,0,1,1,Burger,1
+172,26-35,Europe,Man,1,0,0,Taco,1
+172,26-35,Europe,Man,1,1,1,Fried Chicken,1
+172,26-35,Europe,Man,1,0,0,Salmon,1
+172,26-35,Europe,Man,0,1,1,Pasta,1
+172,26-35,Europe,Man,1,1,1,Steak,1
+172,26-35,Europe,Man,1,1,1,Dumpling,1
+172,26-35,Europe,Man,0,1,1,Sushi,1
+172,26-35,Europe,Man,1,0,0,Fried Rice,1
+172,26-35,Europe,Man,0,0,0,Salad,1
+173,26-35,Europe,Man,1,0,0,Burger,1
+173,26-35,Europe,Man,1,0,0,Taco,1
+173,26-35,Europe,Man,0,0,0,Fried Chicken,1
+173,26-35,Europe,Man,1,0,0,Salmon,1
+173,26-35,Europe,Man,1,0,0,Pasta,1
+173,26-35,Europe,Man,1,1,1,Steak,1
+173,26-35,Europe,Man,1,1,1,Dumpling,1
+173,26-35,Europe,Man,1,0,0,Sushi,1
+173,26-35,Europe,Man,1,0,0,Fried Rice,1
+173,26-35,Europe,Man,0,0,0,Salad,1
+174,16-25,North America/Central America,Woman,1,0,0,Burger,1
+174,16-25,North America/Central America,Woman,0,1,1,Taco,1
+174,16-25,North America/Central America,Woman,1,1,1,Fried Chicken,1
+174,16-25,North America/Central America,Woman,1,0,0,Salmon,1
+174,16-25,North America/Central America,Woman,0,1,1,Pasta,1
+174,16-25,North America/Central America,Woman,1,1,1,Steak,1
+174,16-25,North America/Central America,Woman,0,0,0,Dumpling,1
+174,16-25,North America/Central America,Woman,1,0,0,Sushi,1
+174,16-25,North America/Central America,Woman,1,0,0,Fried Rice,1
+174,16-25,North America/Central America,Woman,0,0,0,Salad,1
+175,16-25,North America/Central America,Man,1,0,0,Burger,1
+175,16-25,North America/Central America,Man,1,0,0,Taco,1
+175,16-25,North America/Central America,Man,0,0,0,Fried Chicken,1
+175,16-25,North America/Central America,Man,1,0,0,Salmon,1
+175,16-25,North America/Central America,Man,1,0,0,Pasta,1
+175,16-25,North America/Central America,Man,0,0,0,Steak,1
+175,16-25,North America/Central America,Man,1,1,1,Dumpling,1
+175,16-25,North America/Central America,Man,1,0,0,Sushi,1
+175,16-25,North America/Central America,Man,1,0,0,Fried Rice,1
+175,16-25,North America/Central America,Man,0,0,0,Salad,1
+176,16-25,North America/Central America,Woman,1,0,0,Burger,1
+176,16-25,North America/Central America,Woman,1,0,0,Taco,1
+176,16-25,North America/Central America,Woman,1,1,1,Fried Chicken,1
+176,16-25,North America/Central America,Woman,1,0,0,Salmon,1
+176,16-25,North America/Central America,Woman,1,0,0,Pasta,1
+176,16-25,North America/Central America,Woman,1,1,1,Steak,1
+176,16-25,North America/Central America,Woman,1,1,1,Dumpling,1
+176,16-25,North America/Central America,Woman,1,0,0,Sushi,1
+176,16-25,North America/Central America,Woman,1,0,0,Fried Rice,1
+176,16-25,North America/Central America,Woman,0,0,0,Salad,1
+177,16-25,Asia/Middle east,Woman,1,0,0,Burger,1
+177,16-25,Asia/Middle east,Woman,0,1,1,Taco,1
+177,16-25,Asia/Middle east,Woman,1,1,1,Fried Chicken,1
+177,16-25,Asia/Middle east,Woman,1,0,0,Salmon,1
+177,16-25,Asia/Middle east,Woman,0,1,1,Pasta,1
+177,16-25,Asia/Middle east,Woman,1,1,1,Steak,1
+177,16-25,Asia/Middle east,Woman,1,1,1,Dumpling,1
+177,16-25,Asia/Middle east,Woman,1,0,0,Sushi,1
+177,16-25,Asia/Middle east,Woman,1,0,0,Fried Rice,1
+177,16-25,Asia/Middle east,Woman,0,0,0,Salad,1
+178,16-25,North America/Central America,Man,1,0,0,Burger,1
+178,16-25,North America/Central America,Man,1,0,0,Taco,1
+178,16-25,North America/Central America,Man,1,1,1,Fried Chicken,1
+178,16-25,North America/Central America,Man,1,0,0,Salmon,1
+178,16-25,North America/Central America,Man,1,0,0,Pasta,1
+178,16-25,North America/Central America,Man,1,1,1,Steak,1
+178,16-25,North America/Central America,Man,1,1,1,Dumpling,1
+178,16-25,North America/Central America,Man,0,1,1,Sushi,1
+178,16-25,North America/Central America,Man,0,1,1,Fried Rice,1
+178,16-25,North America/Central America,Man,0,0,0,Salad,1
