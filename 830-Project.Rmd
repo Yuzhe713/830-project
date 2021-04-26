@@ -1,0 +1,26 @@
+---
+title: "830 Project"
+author: "Ryan Veytsman (U87697580"
+date: "4/26/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+
+```{r cars}
+library(data.table)
+library(purrr)
+library(dplyr)
+# Read the data #
+data <- fread('BA830-Project.csv')
+```
+```{r}
+data %>% mutate (outcome_plate = recode (outcome_plate, '0' = 1, '1' = 0))
+
+```
+
