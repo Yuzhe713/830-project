@@ -105,11 +105,9 @@ reg.question <- lm(outcome_question ~ Treatment, data = food)
 summary(reg.question)
 ```
 
-By running regression for all the pre-experiment variables of regression that we select based on our survey, we find out that gender_group and age_group gave us a big p value bigger than 0.05 which is equal to 0.11 and 0.68. In this case, we are not able to reject the null hypothesis. It means that gender_group and age_group doesn't have some effect for the outcome. Because gender_group and age_group are pre-treatment outcomes and it is not significant, it means there is balance between the control group and treatment group. The experiment is good randomized.
+By running regression for all the pre-experiment variables of regression that we select based on our survey, we find out that gender_group and age_group gave us a big p value bigger than 0.05 which is equal to 0.11 and 0.68. In this case, we are not able to reject the null hypothesis. It means that gender_group and age_group doesn't have some effect for the outcome. Because gender_group and age_group are pre-treatment outcomes and it is not significant, it means there is balance between the control group and treatment group. The experiment is well randomized.
 
-By running regression for all the pre-experiment variables of regression that we select based on our survey, we find out that only outcome_plate and outcome_question gave us a small p value lower than 0.05 which is equal to 5.4e-14 and 0.00048. In this case, we are able to reject the null hypothesis. It means that outcome_plate and outcome_question have some effect for the outcome. 
-
-Because outcome_plate and outcome_question are pre-treatment outcomes and it is significant, it means there is imbalance between the control group and treatment group. The experiment is not randomized.
+outcome_
 
 # Regression 
 ```{r}
