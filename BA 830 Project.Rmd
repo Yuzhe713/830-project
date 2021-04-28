@@ -130,7 +130,17 @@ For the regression above we added two fixed effects: outcome_food and food_name 
 
 
 ```{r}
-
+reg.burger <- feols(outcome_plate ~ Treatment, data = food[food_name == 'Burger'])
+reg.taco <- feols(outcome_plate ~ Treatment, data = food[food_name == 'Taco'])
+reg.friedchicken <- feols(outcome_plate ~ Treatment, data = food[food_name == 'Fried Chicken'])
+reg.salmon <- feols(outcome_plate ~ Treatment, data = food[food_name == 'Salmon'])
+reg.pasta <- feols(outcome_plate ~ Treatment, data = food[food_name == 'Pasta'])
+reg.steak <- feols(outcome_plate ~ Treatment, data = food[food_name == 'Steak'])
+reg.dumpling <- feols(outcome_plate ~ Treatment, data = food[food_name == 'Dumpling'])
+reg.sushi <- feols(outcome_plate ~ Treatment, data = food[food_name == 'Sushi'])
+reg.friedrice <- feols(outcome_plate ~ Treatment, data = food[food_name == 'Fried Rice'])
+reg.salad <- feols(outcome_plate ~ Treatment, data = food[food_name == 'Salad'])
+etable(reg.burger,reg.taco, reg.friedchicken, reg.salmon, reg.pasta, reg.steak, reg.dumpling, reg.sushi, reg.friedrice, reg.salad)
 ```
 ## Including Plots
 
