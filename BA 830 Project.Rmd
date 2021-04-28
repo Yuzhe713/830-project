@@ -64,6 +64,7 @@ food <- fread('BA830-Project.csv')
 ```{r}
 food %>% mutate (outcome_plate = recode (outcome_plate, '0' = 1, '1' = 0))
 ```
+
 ```{r}
 #data cleaning
 #gender
@@ -84,9 +85,23 @@ prop.test(nrow(food[Treatment ==  1])/10, nrow(food)/10, 0.5)
 The p value here is 0.3 which is larger than 0.05, so we fail to reject the null hypothesis and prove that our experiment of treatment and control group was well randomized.
 
 ```{r}
+food
+```
+
+```{r}
+# Randomization / balance check for pre-treatment outcomes between the treatment and control group.
+t.test(food[Treatment == 1, age_group], food[Treatment == 0, age_group])
+```
+
+```{r}
+t.test(food[Treatment == 1, gender_group], food[Treatment == 0, gender_group])
+```
+
+```{r}
 reg.age <- lm(age_group ~ Treatment, data = food)
 summary(reg.age)
 ```
+
 ```{r}
 reg.gender <- lm(gender_group ~ Treatment, data = food)
 summary(reg.gender)
