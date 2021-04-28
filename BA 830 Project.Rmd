@@ -82,7 +82,7 @@ food$age_group[food$Age == '56-65'] <- 5
 #proportion test
 prop.test(nrow(food[Treatment ==  1])/10, nrow(food)/10, 0.5)
 ```
-The p value here is 0.3 which is larger than 0.05, so we fail to reject the null hypothesis and prove that our experiment of treatment and control group was well randomized.
+Our group are using simply randomize method to select our treatment group and control group. By doing proportion test, we can see the p value here is 0.3 which is larger than 0.05, so we fail to reject the null hypothesis and prove that our experiment of treatment and control group was well randomized.
 
 # Randomization / balance check for pre-experiment variables between the treatment and control group.
 ```{r}
@@ -106,8 +106,6 @@ summary(reg.question)
 ```
 
 By running regression for all the pre-experiment variables of regression that we select based on our survey, we find out that gender_group and age_group gave us a big p value bigger than 0.05 which is equal to 0.11 and 0.68. In this case, we are not able to reject the null hypothesis. It means that gender_group and age_group doesn't have some effect for the outcome. Because gender_group and age_group are pre-treatment outcomes and it is not significant, it means there is balance between the control group and treatment group. The experiment is well randomized.
-
-outcome_
 
 # Regression 
 ```{r}
