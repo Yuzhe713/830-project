@@ -126,16 +126,3 @@ etable(fixed_effects)
 ```
 For the regression above we added two fixed effects: outcome_food and food_name to see if the food has an impact on the outcome. The outcome variable is outcome_plate and has an estimated treatment effect of 0.1788 with an standard error of 0.0230, which is really similar to the regression above without the fixed effects. The results of this regression are also statistically significant.  
 
-
-```{r}
-
-```
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
