@@ -40,6 +40,10 @@ pre { /* Code block - determines code spacing between lines */
 </style>
 
 Team members: Paula Demacker, Yuchen Feng, Leah Fowlkes, Ryan Veytsman, Xinping Yu, Yuzhe Zheng
+
+###Introduction
+Our goal is to understand if the color of the plate that food is served on affects whether people want to eat the food. Then we can give some recommendation to some restaurant to help them to make a better advertisement to attract more people. \
+We created two surveys and used simply randomization to randomize by person level to put each person into treatment group or control group with different surveys. For each survey, we have basic demographic information problems such as gender, country and age group to see if any these information may also affect on the plate that they chose. We also have 10 questions in each survey relates to our experiment. In these questions, We asked people to select based on the photos that which food looks tastier. We have ten different foods in total and for each question we display the same food but different food pictures into different colors of plate. We randomized for each question that the red plate will on the right or left and set the treatment survey reverse the plate color order for each question. And we will test people will more likely to choose the food based on the plate color, food itself or the position of the answer.  
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 options(scipen=1, digits=3)
@@ -192,7 +196,8 @@ For the heterogeneous effect, if people took the treatment survey and were shown
 
 
 
-#Limitations
-Sample Size
+###Limitations
+#Sample Size 
 One limitation to our regressions would be our sample size. Our sample only consisted of 186 survey results. This is not nearly enough observations to determine a trend on a larger scale so our statistical power is very low. Our probability of rejecting the null when there is a true treatment effect of some size is substantially low.
+
 
