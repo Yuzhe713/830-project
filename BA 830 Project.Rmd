@@ -162,3 +162,36 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+#Heterogeneous Treatment Effects
+We will use the feols function to compute the heterogeneous treatment effect of being shown the red plate by whether the
+person saw the food with the red plate on the left (first option) or right (second option) of the screen. 
+```{r}
+reg_het1 <- feols(outcome_plate ~ Treatment*outcome_food, data = food, se = 'white')
+etable(reg_het1)
+```
+
+###Explanation of the Results
+If a person only takes the treatment survey, they were less likely to pick the red plate 32.6% of the time than if they took the control survey. We also see if the food was on the left or listed as the first option, they were 20.8% less likely to pick the first option than the second. Lastly, if the person took the treatment survey and chose the first option of the survey, they were 33.4% more likely to pick the red plate. All of these results are a high significance level so we can believe these trends stand for 99% of the time. 
+
+
+
+##We will use the feols function again to compute the heterogeneous treatment effect of being shown the red plate by whether the person saw a certain type or category of food. 
+
+```{r}
+reg_het2 <- feols(outcome_plate ~ Treatment*food_name, data = food, se = 'white')
+etable(reg_het2)
+```
+
+###Explanation of the Results
+For this regression, taking the treatment survey led people to choose the red plate 36.8% of the time more than if they took the control survey. There were 10 food categories: Burger, Dumpling, Fried Chicken, Fried Rice, Pasta, Salad, Salmon, Steak, Sushi, and Taco. Their respective treatment effects, with Burger standing as the 0 or the variable left out for the regression, were (0.0417, -0.2083**, 0.0625, -0.2708***, -0.2708***, -0.0208, -0.2708***, -0.3125***, -0.2083**).
+Some of the food name effects were not at a high significance level so we will not report those. We see if Fried chicken or Taco was displayed, they were 21% more likely to choose the red plate option. For Pasta, Salad, and Steak, people tended to pick the red plate option for these meals 27% of the time more than the other option. People were 31% more likely to choose the red plate option if the food category was sushi.
+Lastly, if people took the treatment survey and were shown a specific food category, the treatment effects are as follows: (-0.1775, 0.3565***, -0.2106*, 0.4066***, 0.6412***, -0.1520, 0.3573***, 0.5594***, 0.1590). The fried chicken images led people to choose the red plate 36% of the time. Fried rice caused a 21% chance people would pick the red plate option. The pasta category crated a 21% higher chance the red plate option would be picked, while salad, steak, and sushi led to their red plate option being chosen -64%, -36%, and -56% of the time.  
+
+
+
+#Limitations
+Sample Size
+One limitation to our regressions would be our sample size. Our sample only consisted of 186 survey results. This is not nearly enough observations to determine a trend on a larger scale so our statistical power is very low. Our probability of rejecting the null when there is a true treatment effect of some size is substantially low.
+
