@@ -32,9 +32,27 @@ food <- fread('BA830-Project.csv')
 ```
 
 ```{r}
+food %>% mutate (outcome_plate = recode (outcome_plate, '0' = 1, '1' = 0))
+```
+```{r}
+#proportion test
+prop.test(nrow(food[Treatment ==  1]), nrow(food), 0.5)
+```
+The p value here is lower than 0.05, so we reject the null hypothesis which the randomization was not property done, so it may cause some problem with the experiment result. 
 
+```{r}
+reg.plate <- lm(outcome_plate ~ Treatment, data = food)
+summary(reg.plate)
 ```
 
+```{r}
+reg.question <- lm(outcome_question ~ Treatment, data = food)
+summary(reg.question)
+```
+
+```{r}
+
+```
 
 ## Including Plots
 
