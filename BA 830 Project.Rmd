@@ -62,11 +62,10 @@ food <- fread('BA830-Project.csv')
 food = subset(food, select = -c(outcome_question)) #to get rid of extra column
 food$outcome_plate.dummy <- ifelse(food$outcome_plate==0,1,0)  #to recode into new column porperly
 food$outcome_plate <- food$outcome_plate.dummy #to properly assign outcome_plate
-food = subset(food, select = -c(outcome_plate.dummy)) #to get rid of new extra column
+food = subset(food, select = -c(outcome_plate.dummy)) #to rid of new extra column
 ```
-
 ```{r}
-# food %>% mutate (outcome_plate = recode (outcome_plate, '0' = 1, '1' = 0))
+head(food)
 ```
 
 ```{r}
