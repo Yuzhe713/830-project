@@ -88,15 +88,7 @@ The p value here is 0.3 which is larger than 0.05, so we fail to reject the null
 food
 ```
 
-```{r}
 # Randomization / balance check for pre-treatment outcomes between the treatment and control group.
-t.test(food[Treatment == 1, age_group], food[Treatment == 0, age_group])
-```
-
-```{r}
-t.test(food[Treatment == 1, gender_group], food[Treatment == 0, gender_group])
-```
-
 ```{r}
 reg.age <- lm(age_group ~ Treatment, data = food)
 summary(reg.age)
