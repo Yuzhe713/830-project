@@ -1,21 +1,51 @@
 ---
 title: "BA 830 Project"
-author: "Xinping Yu"
+author: "Team 10"
 date: "4/26/2021"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
+<style type="text/css">
 
+body{ /* Normal  */
+      font-size: 12px;
+  }
+td {  /* Table  */
+  font-size: 8px;
+}
+h1.title {
+  font-size: 24px;
+  color: DarkRed;
+}
+h1 { /* Header 1 */
+  font-size: 22px;
+  color: DarkBlue;
+}
+h2 { /* Header 2 */
+    font-size: 20px;
+  color: DarkBlue;
+}
+h3 { /* Header 3 */
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  color: DarkBlue;
+}
+code.r{ /* Code block */
+    font-size: 12px;
+}
+pre { /* Code block - determines code spacing between lines */
+    font-size: 14px;
+}
+</style>
+
+Team members: Paula Demacker, Yuchen Feng, Leah Fowlkes, Ryan Veytsman, Xinping Yu, Yuzhe Zheng
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+options(scipen=1, digits=3)
 ```
 
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r}
+```{r, echo=FALSE}
 #library
 library(data.table)
 library(tidyverse)
@@ -36,7 +66,7 @@ food %>% mutate (outcome_plate = recode (outcome_plate, '0' = 1, '1' = 0))
 ```
 ```{r}
 #proportion test
-prop.test(nrow(food[Treatment ==  1])/10, nrow(food)/10, 0.5)
+prop.test(nrow(food[Treatment ==  1]), nrow(food), 0.5)
 ```
 The p value here is lower than 0.05, so we reject the null hypothesis which the randomization was not property done, so it may cause some problem with the experiment result. 
 
@@ -49,11 +79,29 @@ summary(reg.plate)
 reg.question <- lm(outcome_question ~ Treatment, data = food)
 summary(reg.question)
 ```
+# Regression 
+```{r}
+together <- feols(c(outcome_plate, outcome_food) ~ Treatment, 
+                   data = food, se = 'white')
+etable(together)
+```
+In the regression of model 1 we looked at the outcome_plate as the outcome variable first. We get an intercept of 0.5312, which represents the mean of the outcome of our control group. The estimate for the treatment effect is 0.1737 and has a standard error of 0.0227. Therefore, we have a positive treatment effect which indicates a positive relationship between Treatment and outcome_plate.\
+We know from the stars that this result is statistically significant. This means that people in the treatment group are more likely to choose the red plate. 
+
+For model 2 we used outcome_food as our outcome variable. The intercept is 0.4865. Our estimated treatment effect is -0.0828 and has a standard error of 0.0236. This indicates that we have a negative relationship between Treatment and outcome_food. These results are also statistically significant. It still indicates that people in the treatment group are more likely to choose the food on the red plate. The negtaive treatment effect shows us that people in the treatment group are more likely to choose the plate that is positioned on the right. 
+
+```{r}
+fixed_effects <- feols(outcome_plate ~ Treatment 
+                  | outcome_food + food_name, data = food,
+            se = 'white')
+etable(fixed_effects)
+```
+For the regression above we added two fixed effects: outcome_food and food_name to see if the food has an impact on the outcome. The outcome variable is outcome_plate and has an estimated treatment effect of 0.1788 with an standard error of 0.0230, which is really similar to the regression above without the fixed effects. The results of this regression are also statistically significant.  
+
 
 ```{r}
 
 ```
-
 ## Including Plots
 
 You can also embed plots, for example:
