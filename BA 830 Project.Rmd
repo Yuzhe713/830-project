@@ -202,8 +202,8 @@ From pre-experiment check, we found different dishes are also statistically sign
 ### country not well randomized
 The method we used for our experiment is simple randomization. This works for most observations, which are from Asia, North America and Europe. However, it was not well randomized due to the few observations from Australia and New Zealand. 
 
-###Conclusion
-#Suggestions for restaurant advertisement
+# Conclusion
+### Suggestions for restaurant advertisement
 As a result, our group will suggest restaurant to use white plate on their advertisement especially for dumpling, fried rice and salmon. Also, strongly recommend restaurants in Asia to use white plate since it has the most significant differences and shows that people in Asia have a strong preference for white plates.  
 
 
