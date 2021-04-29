@@ -41,7 +41,7 @@ pre { /* Code block - determines code spacing between lines */
 
 Team members: Paula Demacker, Yuchen Feng, Leah Fowlkes, Ryan Veytsman, Xinping Yu, Yuzhe Zheng
 
-###Introduction
+# Introduction
 Our goal is to understand if the color of the plate that food is served on affects whether people want to eat the food. Then we can give some recommendation to some restaurant to help them to make a better advertisement to attract more people. \
 We created two surveys and used simply randomization to randomize by person level to put each person into treatment group or control group with different surveys. For each survey, we have basic demographic information problems such as gender, country and age group to see if any these information may also affect on the plate that they chose. We also have 10 questions in each survey relates to our experiment. In these questions, We asked people to select based on the photos that which food looks tastier. We have ten different foods in total and for each question we display the same food but different food pictures into different colors of plate. We randomized for each question that the red plate will on the right or left and set the treatment survey reverse the plate color order for each question. And we will test people will more likely to choose the food based on the plate color, food itself or the position of the answer.  
 ```{r setup, include=FALSE}
@@ -118,7 +118,7 @@ summary(reg.plate)
 ```
 
 ```{r}
-reg.question <- lm(outcome_question ~ Treatment, data = food)
+reg.question <- lm(outcome_food ~ Treatment, data = food)
 summary(reg.question)
 ```
 
@@ -130,8 +130,8 @@ together <- feols(c(outcome_plate, outcome_food) ~ Treatment,
                    data = food, se = 'white')
 etable(together)
 ```
-In the regression of model 1 we looked at the outcome_plate as the outcome variable first. We get an intercept of 0.5312, which represents the mean of the outcome of our control group. The estimate for the treatment effect is 0.1737 and has a standard error of 0.0227. Therefore, we have a positive treatment effect which indicates a positive relationship between Treatment and outcome_plate.\
-We know from the stars that this result is statistically significant. This means that people in the treatment group are more likely to choose the red plate. 
+In the regression of model 1 we looked at the outcome_plate as the outcome variable first. We get an intercept of 0.4687, which represents the mean of the outcome of our control group. The estimate for the treatment effect is -0.1737 and has a standard error of 0.0227. Therefore, we have a negative treatment effect which indicates a negative relationship between Treatment and outcome_plate.\
+We know from the stars that this result is statistically significant. This means that people in the treatment group are more likely to choose the white plate. 
 
 For model 2 we used outcome_food as our outcome variable. The intercept is 0.4865. Our estimated treatment effect is -0.0828 and has a standard error of 0.0236. This indicates that we have a negative relationship between Treatment and outcome_food. These results are also statistically significant. It still indicates that people in the treatment group are more likely to choose the food on the red plate. The negtaive treatment effect shows us that people in the treatment group are more likely to choose the plate that is positioned on the right. 
 
@@ -141,7 +141,7 @@ fixed_effects <- feols(outcome_plate ~ Treatment
             se = 'white')
 etable(fixed_effects)
 ```
-For the regression above we added two fixed effects: outcome_food and food_name to see if the food has an impact on the outcome. The outcome variable is outcome_plate and has an estimated treatment effect of 0.1788 with an standard error of 0.0230, which is really similar to the regression above without the fixed effects. The results of this regression are also statistically significant.  
+For the regression above we added two fixed effects: outcome_food and food_name to see if the food has an impact on the outcome. The outcome variable is outcome_plate and has an estimated treatment effect of -0.1788 with an standard error of 0.0230, which is really similar to the regression above without the fixed effects. The results of this regression are also statistically significant.  
 
 
 ```{r}
@@ -168,7 +168,7 @@ plot(pressure)
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
 
-#Heterogeneous Treatment Effects
+# Heterogeneous Treatment Effects
 We will use the feols function to compute the heterogeneous treatment effect of being shown the red plate by whether the
 person saw the food with the red plate on the left (first option) or right (second option) of the screen. 
 ```{r}
@@ -176,28 +176,28 @@ reg_het1 <- feols(outcome_plate ~ Treatment*outcome_food, data = food, se = 'whi
 etable(reg_het1)
 ```
 
-###Explanation of the Results
+### Explanation of the Results
 If a person only takes the treatment survey, they were less likely to pick the red plate 32.6% of the time than if they took the control survey. We also see if the food was on the left or listed as the first option, they were 20.8% less likely to pick the first option than the second. 
 For the heterogeneous treatment effect, if the person took the treatment survey and chose the first option of the survey, they were 33.4% more likely to pick the red plate. All of these results are at a high significance level so we can believe these trends stand for 99% of the time. The combined treatment effect led more people to choose the red plate than the white plate. We also see the treatment and the positioning of the red plate on their own led to more people choosing the white plate over the red. 
 
 
 
-##We will use the feols function again to compute the heterogeneous treatment effect of being shown the red plate by whether the person saw a certain type or category of food. 
+## We will use the feols function again to compute the heterogeneous treatment effect of being shown the red plate by whether the person saw a certain type or category of food. 
 
 ```{r}
 reg_het2 <- feols(outcome_plate ~ Treatment*food_name, data = food, se = 'white')
 etable(reg_het2)
 ```
 
-###Explanation of the Results
+### Explanation of the Results
 For this regression, taking the treatment survey led people to choose the red plate 36.8% of the time less than if they took the control survey. There were 10 food categories: Burger, Dumpling, Fried Chicken, Fried Rice, Pasta, Salad, Salmon, Steak, Sushi, and Taco. Their respective treatment effects, with Burger standing as the 0 or the variable left out of the regression, were (0.0417, -0.2083**, 0.0625, -0.2708***, -0.2708***, -0.0208, -0.2708***, -0.3125***, -0.2083**).
 Some of the food name effects were not at a high significance level so we will not report those. We see if Fried chicken or Taco was displayed, they were 21% less likely to choose the red plate option. For Pasta, Salad, and Steak, people tended to pick the red plate option for these meals 27% of the time less than the other option. People were 31% less likely to choose the red plate option if the food category was sushi.These results are in comparison to the burger on a red plate. In general, the burger, dumpling and Salmon tended to be preferred on the red plate than the other dishes.
 For the heterogeneous effect, if people took the treatment survey and were shown a specific food category, the treatment effects are as follows: (-0.1775, 0.3565***, -0.2106*, 0.4066***, 0.6412***, -0.1520, 0.3573***, 0.5594***, 0.1590). The fried chicken images led people to choose the red plate less often by 36%. Fried rice caused a 21% lower chance people would pick the red plate option. The pasta category created a 21% lower chance the red plate option would be picked, while salad, steak, and sushi led to their red plate option being more likely chosen 64%, 36%, and 56% of the time.  
 
 
 
-###Limitations
-#Sample Size 
+# Limitations
+### Sample Size 
 One limitation to our regressions would be our sample size. Our sample only consisted of 186 survey results. This is not nearly enough observations to determine a trend on a larger scale so our statistical power is very low. Our probability of rejecting the null when there is a true treatment effect of some size is substantially low.
 
 
