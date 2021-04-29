@@ -124,6 +124,8 @@ summary(reg.question)
 
 By running regressions for all the pre-experiment variables of regression we selected based on our survey, we found out that gender_group and age_group gave us a big p value bigger than 0.05 which is equal to 0.11 and 0.68. In this case, we are not able to reject the null hypothesis. It means that gender_group and age_group are well randomized between treatment group and control group. However, the p value for country_group is smaller than 0.05 which is 0.0096. In this case, we are able to reject the null hypothesis. It means that country_group is not well randomized between treatment group and control group. The reason for that is because we are using simple randomization, and the sample size for some country is not big enough. For example, we might only have one observation from Country A, and based on our simple randomization, it will make our data be bias.
 
+The last two regression shows that outcome_plate and outcome_food are both statistically significant which has p value equal to 5.4e-14 and 0.00048. Both of the variable are three star significant, the ate_hat for outcome_plate is -0.1737, and outcome_food is -0.0828. Since both the variable are at three star significant level, we can conclude that outcome_plate has a bigger effect than outcome_food.
+
 # Regression 
 ```{r}
 together <- feols(c(outcome_plate, outcome_food) ~ Treatment, 
