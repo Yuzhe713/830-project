@@ -196,9 +196,9 @@ For the heterogeneous treatment effect, if people took the treatment survey and 
 ### Sample Size 
 One limitation to our regressions would be our sample size. Our sample only consisted of 178 survey results. This is not nearly enough observations to determine a trend on a larger scale so our statistical power is very low. Our probability of rejecting the null when there is a true treatment effect of some size is substantially low.
 ### Selection Bias
-We gave out the survey through social media on Thursday and Friday. So for those who were not able to use social media on those two days would not see our survey. The short time on experiment caused selection bias. Also, the age of our observations are primarily 16-25, which caused selection bias although it was well randomized. However, restaurants that aims to attract teenagers could use this information.
+We gave out the survey through social media on Thursday and Friday. So for those who were not able to use social media on those two days would not see our survey. The short time on experiment caused selection bias. Also, the age of our observations are primarily 16-25, which caused selection bias although it was well randomized. 
 ### Design of survey
-From pre-experiment check, we found different dishes are also statistically significant. It is related to choice preference as well. Our result shows people tend to choose the right one in their survey. It is hard to figure out whether the different dished or choice preference exactly affect the outcome. To improve this, we could add one more treatment arm in our experiment.
+From pre-experiment check, we found different dishes are also statistically significant. It is related to choice preference as well. It is hard to figure out whether the different dishes or choice preference exactly affect the outcome. To improve this, we could add one more treatment arm in our experiment.
 ### country not well randomized
 The method we used for our experiment is simple randomization. This works for most observations, which are from Asia, North America and Europe. However, it was not well randomized due to the few observations from Australia and New Zealand. 
 
