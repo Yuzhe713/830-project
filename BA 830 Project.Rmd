@@ -181,17 +181,20 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 
 
 # Heterogeneous Treatment Effects
-We will use the feols function to compute the heterogeneous treatment effects on choosing the red plate if they took the treatment survey and the food with the red plate was displayed on the left (first option) on the screen. 
+We will use the feols function to compute the heterogeneous treatment effect of being shown the red plate by whether the
+person saw the food with the red plate on the left (first option) or right (second option) of the screen. 
 ```{r}
 reg_het1 <- feols(outcome_plate ~ Treatment*outcome_food, data = food, se = 'white')
 etable(reg_het1)
 ```
 
 ### Explanation of the Results
-For the heterogeneous treatment effect, if the person took the treatment survey and chose the first option of the survey, they were 33.4% more likely to pick the red plate. All of these results are at a high significance level so we can believe these trends stand for 99% of the time. The combined treatment effect led more people to choose the red plate than the white plate. We also see the treatment and the positioning of the red plate on an individual level actually led to more people choosing the white plate over the red. 
+If a person only takes the treatment survey, they were less likely to pick the red plate 32.6% of the time than if they took the control survey. We also see if the food was on the left or listed as the first option, they were 20.8% less likely to pick the first option than the second. 
+For the heterogeneous treatment effect, if the person took the treatment survey and chose the first option of the survey, they were 33.4% more likely to pick the red plate. All of these results are at a high significance level so we can believe these trends stand for 99% of the time. The combined treatment effect led more people to choose the red plate than the white plate. We also see the treatment and the positioning of the red plate on their own led to more people choosing the white plate over the red. 
 
 
-## We will use the feols function again to compute the heterogeneous treatment effects on a person choosing the red plate if the person saw a certain category of food and took the treatment survey. 
+
+## We will use the feols function again to compute the heterogeneous treatment effect of being shown the red plate by whether the person saw a certain type or category of food. 
 
 ```{r}
 reg_het2 <- feols(outcome_plate ~ Treatment*food_name, data = food, se = 'white')
@@ -199,7 +202,10 @@ etable(reg_het2)
 ```
 
 ### Explanation of the Results
-For the heterogeneous effect, if people took the treatment survey and were shown a specific food category, the treatment effects are as follows: (-0.1775, 0.3565***, -0.2106*, 0.4066***, 0.6412***, -0.1520, 0.3573***, 0.5594***, 0.1590). The fried chicken images led people to choose the red plate more often by 36%. Fried rice caused a 21% lower chance people would pick the red plate option. The pasta category created a 41% higher chance the red plate option would be picked, while salad, steak, and sushi led to their red plate option being more likely chosen 64%, 36%, and 56% of the time. We only reported the variable with high significance levels ranging from a 90% confidence to 99% confidence. Fried Chicken, Pasta, Salad, Steak, and Sushi were heterogeneous treatment effect categories we could have a 99% confidence in. The Fried Rice had a heterogeneous treatment effect we could have 90% confidence in. 
+For this regression, taking the treatment survey led people to choose the red plate 36.8% of the time less than if they took the control survey. There were 10 food categories: Burger, Dumpling, Fried Chicken, Fried Rice, Pasta, Salad, Salmon, Steak, Sushi, and Taco. Their respective treatment effects, with Burger standing as the 0 or the variable left out of the regression, were (0.0417, -0.2083**, 0.0625, -0.2708***, -0.2708***, -0.0208, -0.2708***, -0.3125***, -0.2083**).
+Some of the food name effects were not at a high significance level so we will not report those. We see if Fried chicken or Taco was displayed, they were 21% less likely to choose the red plate option. For Pasta, Salad, and Steak, people tended to pick the red plate option for these meals 27% of the time less than the other option. People were 31% less likely to choose the red plate option if the food category was sushi.These results are in comparison to the burger on a red plate. In general, the burger, dumpling and Salmon tended to be preferred on the red plate than the other dishes.
+For the heterogeneous effect, if people took the treatment survey and were shown a specific food category, the treatment effects are as follows: (-0.1775, 0.3565***, -0.2106*, 0.4066***, 0.6412***, -0.1520, 0.3573***, 0.5594***, 0.1590). The fried chicken images led people to choose the red plate less often by 36%. Fried rice caused a 21% lower chance people would pick the red plate option. The pasta category created a 21% lower chance the red plate option would be picked, while salad, steak, and sushi led to their red plate option being more likely chosen 64%, 36%, and 56% of the time.  
+
 
 
 # Limitations
