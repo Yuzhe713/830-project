@@ -199,5 +199,10 @@ For the heterogeneous effect, if people took the treatment survey and were shown
 # Limitations
 ### Sample Size 
 One limitation to our regressions would be our sample size. Our sample only consisted of 186 survey results. This is not nearly enough observations to determine a trend on a larger scale so our statistical power is very low. Our probability of rejecting the null when there is a true treatment effect of some size is substantially low.
-
+#selection bias
+We gave out the survey mostly through social media on Thursday and Friday. Therefore we could not reach out to those who were not able to use social media on those two days. This is selection bias in our experiment. Also, the major age of observations in our experiment is 16-25. This would also cause selection bias although it is well randomized. However, many restaurants targeting teenagers could use this information to attract more customers.  
+#Design of survey
+By pre-experiment check, we found the position of dishes also statistically significant. The reason for this is we did not randomize the dishes position in our survey. The future improvement for this could be adding one more treatment arm so that we could change the position of dishes.
+#Countries not well-randomized
+ There are not enough observations in Australia and New Zealand. Therefore our randomization method, which is simple randomization, caused the variable "country" not well-randomized.
 
