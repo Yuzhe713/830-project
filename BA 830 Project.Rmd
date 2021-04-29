@@ -135,7 +135,7 @@ etable(together)
 In the regression of model 1 we looked at the outcome_plate as the outcome variable first. We get an intercept of 0.4687, which represents the mean of the outcome of our control group. The estimate for the treatment effect is -0.1737 and has a standard error of 0.0227. Therefore, we have a negative treatment effect which indicates a negative relationship between Treatment and outcome_plate.\
 We know from the stars that this result is statistically significant. This means that people in the treatment group are more likely to choose the white plate. 
 
-For model 2 we used outcome_food as our outcome variable. The intercept is 0.4865. Our estimated treatment effect is -0.0828 and has a standard error of 0.0236. This indicates that we have a negative relationship between Treatment and outcome_food. These results are also statistically significant. It still indicates that people in the treatment group are more likely to choose the food on the red plate. The negtaive treatment effect shows us that people in the treatment group are more likely to choose the plate that is positioned on the right. 
+For model 2 we used outcome_food as our outcome variable. The intercept is 0.4865. Our estimated treatment effect is -0.0828 and has a standard error of 0.0236. This indicates that we have a negative relationship between Treatment and outcome_food. These results are also statistically significant. It still indicates that people in the treatment group are more likely to choose the food on the white plate. The negative treatment effect shows us that people in the treatment group are more likely to choose the plate that is positioned on the left. 
 
 ```{r}
 fixed_effects <- feols(outcome_plate ~ Treatment 
