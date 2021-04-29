@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 ----
 title: "BA 830 Project"
 author: "Team 10"
@@ -44,6 +49,20 @@ Team members: Paula Demacker, Yuchen Feng, Leah Fowlkes, Ryan Veytsman, Xinping 
 # Introduction
 Our goal is to determine if the color of the plate that the food is served on affects whether people want to eat the food. Then we can give some recommendations to restaurants to help them make better advertisement to attract more people. \
 We created two surveys and used simple randomization to randomize by person level to put each person into treatment group or control group with different surveys. For each survey, we have basic demographic information such as gender, country and age group to see if any of this information may also affect the plate they chose. We also have 10 questions in each survey related to our experiment. In these questions, We asked people to select based on the photos which food looks tastier. We have ten different foods in total and for each question we display the same food but different food pictures into different colors of plate. We randomized for each question if the red plate will be on the right or left and set the treatment survey opposite the plate color order for each question. We will test if people are more likely to choose the food based on the plate color, food itself or the position of the answer.  
+
+
+## Article: [COLOR PSYCHOLOGY: RED PLATES MAKE YOU EAT LESS](https://www.laweekly.com/color-psychology-red-plates-make-you-eat-less/)
+
+### This article describes an experiment that found that when people eat off of red plates, they eat less than when eating from plates of any other color. Interestingly, this article provided two points of view. One was based on an experiment in Italy where the participants were given popcorn, chocolate, and hand cream and the study concluded that subjects took less of each thing than they did of the same thing on other plate colors with the theory that people took less because red was associated with danger and prohibition. The second perspective suggested that reg and green were actually more appetizing colors because they are found in nature and that the food on the plate looked less appetizing by contrast. 
+
+## Article: [The effect of the color red on consuming food does not depend on achromatic (Michelson) contrast and extends to rubbing cream on the skin](https://pubmed.ncbi.nlm.nih.gov/23999521/)
+
+### This article goes more into depth about the experiment described above with the popcorn, chocolate, and handcream. It found that although people used/took less of each product when it was on the red plate, they did not appreciate the product any less than when it was on the white or blue plate. 
+
+## Article: [How Your Plate Affects Portion Size](https://www.profileplan.com/healthy-living/how-your-plate-affects-portion-size/)
+
+### This article suggested that the color of the food and the contrast of the plate affected one's portion sizes because when the food had less contrast, the portion sizes people prefer would be smaller.  
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 options(scipen=1, digits=3)
@@ -64,7 +83,7 @@ library(modelsummary)
 #import the file
 food <- fread('BA830-Project.csv')
 food = subset(food, select = -c(outcome_question)) #to get rid of extra column
-food$outcome_plate.dummy <- ifelse(food$outcome_plate==0,1,0)  #to recode into new column porperly
+food$outcome_plate.dummy <- ifelse(food$outcome_plate==0,1,0)  #to recode into new column properly
 food$outcome_plate <- food$outcome_plate.dummy #to properly assign outcome_plate
 food = subset(food, select = -c(outcome_plate.dummy)) #to rid of new extra column
 ```
@@ -89,6 +108,75 @@ food$country_group[food$'Currently living' == 'North America/Central America'] <
 food$country_group[food$'Currently living' == 'Asia/Middle east'] <- 3
 food$country_group[food$'Currently living' == 'Australia/New Zealand'] <- 4
 ```
+```{r}
+#dimensions of the data
+dim(food)
+```
+```{r}
+#Distribution of responses based on Gender
+food %>% count(Gender)
+gender_order <- c('Man','Woman','Non-binary/third gender','Perfer not to say' )
+ggplot(data = food, 
+       aes(x = factor(Gender, level = gender_order))) + 
+  geom_bar(color = '#2e2e2e' ,fill = '#04fbc4') + 
+  scale_x_discrete(name = 'Gender', 
+                   labels = c('Man' = 'Man', 
+                              'Woman' = 'Woman', 
+                              'Non-binary/third gender' = 'Non-binary/third gender', 
+                              'Perfer not to say' = 'Prefer not to say')) 
+```
+```{r}
+#Distribution of responses based on Age
+food %>% count(Age)
+ggplot(data = food, aes(x = Age)) + geom_bar(color = '#2e2e2e' ,fill = '#04fbc4')
+```
+```{r}
+#Distribution of responses based on Region
+food %>% count(country_group)
+ggplot(data = food, aes(x = factor(country_group))) + 
+  geom_bar(color = '#2e2e2e' ,fill = '#04fbc4') + 
+  scale_x_discrete(name = 'Region', 
+                   labels = c('1' = 'Europe', 
+                              '2' = 'North America/Central America', 
+                              '3' = 'Asia/Middle East', 
+                              '4' = 'Australia/New Zealand')) 
+```
+```{r}
+#Distribution of responses based on choice of plate color
+food %>% count(outcome_plate)
+ggplot(data = food, aes(x = factor(outcome_plate))) + 
+  geom_bar(color = '#2e2e2e' ,fill = '#04fbc4') + 
+  scale_x_discrete(name = 'Plate Color', labels= c('0' = 'White', '1' = 'Red'))
+```
+```{r}
+#Distribution of responses based on Position of food
+food %>% count(outcome_food)
+ggplot(data = food, aes(x = factor(outcome_food))) + 
+  geom_bar(color = '#2e2e2e' ,fill = '#04fbc4') + 
+  scale_x_discrete(name = 'Food Position', labels= c('0' = 'Left', '1' = 'Right'))
+```
+```{r}
+#Distribution of responses based on treatmenet group
+food %>% count(Treatment)
+ggplot(data = food, aes(x = factor(Treatment))) + 
+  geom_bar(color = '#2e2e2e' ,fill = '#04fbc4') + 
+  scale_x_discrete(labels= c('0' = 'Control', '1' = 'Treatment'))
+```
+```{r}
+food %>%
+   group_by(food_name) %>%
+   summarise(mean_plate = mean(outcome_plate),
+             mean_food = mean(outcome_food))
+```
+From this we can see that on average, regardless of the food, the white plate was always preferred. This stands true regardless of if the food was on the right or on the left because although the average preferred food position varies on left or right preference for the specific food, the white plate was always preferred.
+```{r}
+treat <- food[, .(mean_outcome_pl = mean(outcome_plate)), by = .(Treatment,food_name)]
+
+treat_1 <- treat[order(mean_outcome_pl)]
+
+treat_1
+```
+On average, people in the control group picked the food on the red plate for Salmon, Burgers, Dumplings, and Fried rice more than on the white plate and people in the treatment group picked Salad on the red plate more often than on the white plate. Everyone else (people in treatment and control) picked all other foods most frequently on the white plates. 
 
 ```{r}
 #proportion test
@@ -96,7 +184,8 @@ prop.test(nrow(food[Treatment ==  1])/10, nrow(food)/10, 0.5)
 ```
 Our group is using simple randomization to select our treatment group and control group. By using the proportion test, we can see the p value here is 0.3 which is larger than 0.05, so we fail to reject the null hypothesis and prove that our experiment of treatment and control group was well randomized.
 
-# Randomization / balance check for pre-experiment variables between the treatment and control group.
+# Randomization / balance check for pre-experiment variables 
+# between the treatment and control group.
 ```{r}
 reg.age <- lm(age_group ~ Treatment, data = food)
 summary(reg.age)
@@ -157,14 +246,27 @@ reg.dumpling <- feols(outcome_plate ~ Treatment, data = food[food_name == 'Dumpl
 reg.sushi <- feols(outcome_plate ~ Treatment, data = food[food_name == 'Sushi'])
 reg.friedrice <- feols(outcome_plate ~ Treatment, data = food[food_name == 'Fried Rice'])
 reg.salad <- feols(outcome_plate ~ Treatment, data = food[food_name == 'Salad'])
-etable(reg.burger,reg.taco, reg.friedchicken, reg.salmon, reg.pasta, reg.steak, reg.dumpling, reg.sushi, reg.friedrice, reg.salad)
+etable(reg.burger,
+       reg.taco, 
+       reg.friedchicken, 
+       reg.salmon, 
+       reg.pasta, 
+       reg.steak, 
+       reg.dumpling, 
+       reg.sushi, 
+       reg.friedrice, 
+       reg.salad)
 ```
 
 ```{r}
-reg.europe <- feols(outcome_plate ~ Treatment, data = food[food$'Currently living' == 'Europe'])
-reg.nc <- feols(outcome_plate ~ Treatment, data = food[food$'Currently living' == 'North America/Central America'])
-reg.am <- feols(outcome_plate ~ Treatment, data = food[food$'Currently living'== 'Asia/Middle east'])
-reg.an <- feols(outcome_plate ~ Treatment, data = food[food$'Currently living' == 'Australia/New Zealand'])
+reg.europe <- feols(outcome_plate ~ Treatment, 
+                    data = food[food$'Currently living' == 'Europe'])
+reg.nc <- feols(outcome_plate ~ Treatment, 
+                data = food[food$'Currently living' == 'North America/Central America'])
+reg.am <- feols(outcome_plate ~ Treatment, 
+                data = food[food$'Currently living'== 'Asia/Middle east'])
+reg.an <- feols(outcome_plate ~ Treatment, 
+                data = food[food$'Currently living' == 'Australia/New Zealand'])
 etable(reg.europe, reg.nc, reg.am, reg.an)
 ```
 All differences are significant except for people who are currently living in Australia/New Zealand. So we can say people in every country except this have extremely habit on white plates especially for Asian people. 
