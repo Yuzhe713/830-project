@@ -126,7 +126,6 @@ By running regressions for all the pre-experiment variables of regression we sel
 
 The last two regression shows that outcome_plate and outcome_food are both statistically significant which has p value equal to 5.4e-14 and 0.00048. Both of the variable are three star significant, the ate_hat for outcome_plate is -0.1737, and outcome_food is -0.0828. Since both the variable are at three star significant level, we can conclude that outcome_plate has a bigger effect than outcome_food which means when people are picking their choose, they are more likely choose based on the plate not the food.
 
-
 # Regression 
 ```{r}
 together <- feols(c(outcome_plate, outcome_food) ~ Treatment, 
