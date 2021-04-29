@@ -171,14 +171,14 @@ All differences are significant except for people who are currently living in Au
 
 
 # Heterogeneous Treatment Effects
-We used the feols function to compute the heterogeneous treatment effects on choosing the red plate if the person took the treatment survey and the food with the red plate was displayed on the left (first option) on the screen.  
+We used the feols function to compute the heterogeneous treatment effects on choosing the red plate if the person took the treatment survey and chose the food displayed on the left (first option) on the screen.   
 ```{r}
 reg_het1 <- feols(outcome_plate ~ Treatment*outcome_food, data = food, se = 'white')
 etable(reg_het1)
 ```
 
 ### Explanation of the Results
-For the heterogeneous treatment effect, if the person took the treatment survey and chose the first option of the survey, they were 33.4% more likely to pick the red plate. So the positioning of the red plate for the choices may have had an impact on how many people chose the red plate. All of these results are at a high significance level so we can believe these trends stand for 99% of the time. The combined treatment effect led more people to choose the red plate than the white plate. However, our other results from this regression indicate the treatment and the positioning of the red plate on an individual level led to more people choosing the white plate over the red. 
+For the heterogeneous treatment effect, if the person took the treatment survey and chose the first option of the survey, they were 33.4% more likely to pick the red plate. So the positioning of the answers for the choices may have had an impact on how many people chose the red plate. All of these results are at a high significance level so we can believe these trends stand for 99% of the time. The combined treatment effect led more people to choose the red plate than the white plate. However, our other results from this regression indicate the treatment and the positioning of the food options on an individual level led to more people choosing the white plate over the red. 
 
 
 ## We will use the feols function again to compute the heterogeneous treatment effects on a person choosing the red plate if the person saw a certain category of food and took the treatment survey.  
