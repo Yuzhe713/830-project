@@ -7,9 +7,6 @@ output:
 title: "BA 830 Project"
 author: "Team 10"
 date: "4/26/2021"
-output:
-  pdf_document: default
-  html_document: default
 ---
 <style type="text/css">
 
@@ -47,13 +44,13 @@ pre { /* Code block - determines code spacing between lines */
 Team members: Paula Demacker, Yuchen Feng, Leah Fowlkes, Ryan Veytsman, Xinping Yu, Yuzhe Zheng
 
 # Introduction
-Our goal is to determine if the color of the plate that the food is served on affects whether people want to eat the food. Then we can give some recommendations to restaurants to help them make better advertisement to attract more people. \
-We created two surveys and used simple randomization to randomize by person level to put each person into treatment group or control group with different surveys. For each survey, we have basic demographic information such as gender, country and age group to see if any of this information may also affect the plate they chose. We also have 10 questions in each survey related to our experiment. In these questions, We asked people to select based on the photos which food looks tastier. We have ten different foods in total and for each question we display the same food but different food pictures into different colors of plate. We randomized for each question if the red plate will be on the right or left and set the treatment survey opposite the plate color order for each question. We will test if people are more likely to choose the food based on the plate color, food itself or the position of the answer.  
+Our goal is to determine if the color of the plate that the food is served on affects whether people want to eat the food. Then we can give some recommendations to restaurants to help them make better advertisements to attract more people. \
+We created two surveys and used simple randomization to randomize at the person level to put each person into the treatment group or control group with different surveys. For each survey, we have basic demographic information such as gender, country and age group to see if any of this information may also affect the plate they choose. We also have 10 questions in each survey related to our experiment. In these questions, We asked people to select which food looks tastier based on the photos. We have ten different foods in total and for each question we display the same food but different food pictures on red or white plates. We randomized for each question if the red plate will be on the right or left and set the treatment survey opposite the plate color order for each question. We tested if people are more likely to choose the food based on the plate color, food itself or the position of the food.  
 
 
 ## Article: [COLOR PSYCHOLOGY: RED PLATES MAKE YOU EAT LESS](https://www.laweekly.com/color-psychology-red-plates-make-you-eat-less/)
 
-### This article describes an experiment that found that when people eat off of red plates, they eat less than when eating from plates of any other color. Interestingly, this article provided two points of view. One was based on an experiment in Italy where the participants were given popcorn, chocolate, and hand cream and the study concluded that subjects took less of each thing than they did of the same thing on other plate colors with the theory that people took less because red was associated with danger and prohibition. The second perspective suggested that reg and green were actually more appetizing colors because they are found in nature and that the food on the plate looked less appetizing by contrast. 
+### This article describes an experiment that found that when people eat off of red plates, they eat less than when eating from plates of any other color. Interestingly, this article provided two points of view. One was based on an experiment in Italy where the participants were given popcorn, chocolate, and hand cream. The study concluded that subjects took less of each thing than they did of the same thing on other plate colors. They theorized that people took less because red was associated with danger and prohibition. The second perspective suggested that red and green were actually more appetizing colors because they are found in nature and that the food on the plate looked less appetizing by contrast. 
 
 ## Article: [The effect of the color red on consuming food does not depend on achromatic (Michelson) contrast and extends to rubbing cream on the skin](https://pubmed.ncbi.nlm.nih.gov/23999521/)
 
@@ -63,7 +60,7 @@ We created two surveys and used simple randomization to randomize by person leve
 
 ### This article suggested that the color of the food and the contrast of the plate affected one's portion sizes because when the food had less contrast, the portion sizes people prefer would be smaller.  
 
-```{r setup, include=FALSE}
+```{r setup, include=FALSE, eval = TRUE}
 knitr::opts_chunk$set(echo = TRUE)
 options(scipen=1, digits=3)
 ```
@@ -110,6 +107,7 @@ food$country_group[food$'Currently living' == 'Australia/New Zealand'] <- 4
 ```
 ```{r}
 #dimensions of the data
+#Every respondent has 10 rows associated with their choices 
 dim(food)
 ```
 ```{r}
@@ -125,12 +123,14 @@ ggplot(data = food,
                               'Non-binary/third gender' = 'Non-binary/third gender', 
                               'Perfer not to say' = 'Prefer not to say')) 
 ```
-```{r}
+## Distribution of responses based on Age
+```{r, echo = FALSE}
 #Distribution of responses based on Age
 food %>% count(Age)
 ggplot(data = food, aes(x = Age)) + geom_bar(color = '#2e2e2e' ,fill = '#04fbc4')
 ```
-```{r}
+## Distribution of responses based on Region
+```{r, echo = FALSE}
 #Distribution of responses based on Region
 food %>% count(country_group)
 ggplot(data = food, aes(x = factor(country_group))) + 
@@ -141,22 +141,25 @@ ggplot(data = food, aes(x = factor(country_group))) +
                               '3' = 'Asia/Middle East', 
                               '4' = 'Australia/New Zealand')) 
 ```
-```{r}
+## Distribution of responses based on choice of plate color
+```{r, echo = FALSE}
 #Distribution of responses based on choice of plate color
 food %>% count(outcome_plate)
 ggplot(data = food, aes(x = factor(outcome_plate))) + 
   geom_bar(color = '#2e2e2e' ,fill = '#04fbc4') + 
   scale_x_discrete(name = 'Plate Color', labels= c('0' = 'White', '1' = 'Red'))
 ```
-```{r}
+## Distribution of responses based on Position of food
+```{r, echo = FALSE}
 #Distribution of responses based on Position of food
 food %>% count(outcome_food)
 ggplot(data = food, aes(x = factor(outcome_food))) + 
   geom_bar(color = '#2e2e2e' ,fill = '#04fbc4') + 
   scale_x_discrete(name = 'Food Position', labels= c('0' = 'Left', '1' = 'Right'))
 ```
-```{r}
-#Distribution of responses based on treatmenet group
+## Distribution of responses based on treatment group
+```{r, echo = FALSE}
+#Distribution of responses based on treatment group
 food %>% count(Treatment)
 ggplot(data = food, aes(x = factor(Treatment))) + 
   geom_bar(color = '#2e2e2e' ,fill = '#04fbc4') + 
@@ -211,9 +214,9 @@ reg.question <- lm(outcome_food ~ Treatment, data = food)
 summary(reg.question)
 ```
 
-By running regressions for all the pre-experiment variables of regression we selected based on our survey, we found out that gender_group and age_group gave us a big p value bigger than 0.05 which is equal to 0.11 and 0.68. In this case, we are not able to reject the null hypothesis. It means that gender_group and age_group are well randomized between treatment group and control group. However, the p value for country_group is smaller than 0.05 which is 0.0096. In this case, we are able to reject the null hypothesis. It means that country_group is not well randomized between treatment group and control group. The reason for that is because we are using simple randomization, and the sample size for some country is not big enough. For example, we might only have one observation from Country A, and based on our simple randomization, it will make our data be bias.
+By running regressions for all the pre-experiment variables we selected based on our survey, we found out that gender_group and age_group gave us a p value bigger than 0.05 which is equal to 0.11 and 0.68 respectively. In this case, we are not able to reject the null hypothesis. It means that gender_group and age_group are well randomized between treatment group and control group. However, the p value for country_group is smaller than 0.05 which is 0.0096. In this case, we are able to reject the null hypothesis. It means that country_group is not well randomized between treatment group and control group. The reason for that is because we are using simple randomization, and the sample size for some countries is not big enough. For example, we only have three observations from Australia/New Zealand, and based on our simple randomization, it made our data have bias.
 
-The last two regression shows that outcome_plate and outcome_food are both statistically significant which has p value equal to 5.4e-14 and 0.00048. Both of the variable are three star significant, the ate_hat for outcome_plate is -0.1737, and outcome_food is -0.0828. Since both the variable are at three star significant level, we can conclude that outcome_plate has a bigger effect than outcome_food which means when people are picking their choose, they are more likely choose based on the plate not the food.
+The last two regressions show that outcome_plate and outcome_food are both statistically significant which have p values equal to 5.4e-14 and 0.00048 respectively. Both of the variables are at the same significant level and the ate_hat for outcome_plate is -0.1737, and outcome_food is -0.0828. Since both the variables are at the three star significant level, we can conclude that outcome_plate has a bigger effect than outcome_food which means when people are picking their choice, they are more likely to choose based on the plate not the food.
 
 # Regression 
 ```{r}
@@ -222,9 +225,9 @@ together <- feols(c(outcome_plate, outcome_food) ~ Treatment,
 etable(together)
 ```
 In the regression of model 1 we looked at the outcome_plate as the outcome variable first. We get an intercept of 0.4687, which represents the mean of the outcome of our control group. The estimate for the treatment effect is -0.1737 and has a standard error of 0.0227. Therefore, we have a negative treatment effect which indicates a negative relationship between Treatment and outcome_plate.\
-We know from the stars that this result is statistically significant. This means that people in the treatment group are more likely to choose the white plate. 
+We know from the three stars indicator that this result is statistically significant. This means that people in the treatment group are more likely to choose the white plate. 
 
-For model 2 we used outcome_food as our outcome variable. The intercept is 0.4865. Our estimated treatment effect is -0.0828 and has a standard error of 0.0236. This indicates that we have a negative relationship between Treatment and outcome_food. These results are also statistically significant. It still indicates that people in the treatment group are more likely to choose the food on the white plate. The negative treatment effect shows us that people in the treatment group are more likely to choose the plate that is positioned on the left. 
+For model 2 we used outcome_food as our outcome variable. The intercept is 0.4865. Our estimated treatment effect is -0.0828 and has a standard error of 0.0236. This indicates that we have a negative relationship between Treatment and outcome_food. These results are also statistically significant. The negative treatment effect shows us that people in the treatment group are more likely to choose the plate that is positioned on the left. 
 
 ```{r}
 fixed_effects <- feols(outcome_plate ~ Treatment 
@@ -232,8 +235,7 @@ fixed_effects <- feols(outcome_plate ~ Treatment
             se = 'white')
 etable(fixed_effects)
 ```
-For the regression above we added two fixed effects: outcome_food and food_name to see if the food has an impact on the outcome. The outcome variable is outcome_plate and has an estimated treatment effect of -0.1788 with an standard error of 0.0230, which is really similar to the regression above without the fixed effects. The results of this regression are also statistically significant.  
-
+For the regression above we added two fixed effects: outcome_food and food_name to see if the food has an impact on the outcome. The outcome variable is outcome_plate and has an estimated treatment effect of -0.1788 with an standard error of 0.0230, which is really similar to the regression above without the fixed effects. The results of this regression are also statistically significant and indicate that people in the treatment group are more likely to choose the food on the white plate. 
 
 ```{r}
 reg.burger <- feols(outcome_plate ~ Treatment, data = food[food_name == 'Burger'])
@@ -269,7 +271,7 @@ reg.an <- feols(outcome_plate ~ Treatment,
                 data = food[food$'Currently living' == 'Australia/New Zealand'])
 etable(reg.europe, reg.nc, reg.am, reg.an)
 ```
-All differences are significant except for people who are currently living in Australia/New Zealand. So we can say people in every country except this have extremely habit on white plates especially for Asian people. 
+All differences are significant except for people who are currently living in Australia/New Zealand. So we can say people in every country except Australia/New Zealand prefer white plates especially for people in the Asian region. 
 
 
 # Heterogeneous Treatment Effects
@@ -291,22 +293,23 @@ etable(reg_het2)
 ```
 
 ### Explanation of the Results
-For the heterogeneous treatment effect, if people took the treatment survey and were shown a specific food category, the treatment effects are as follows: (-0.1775., 0.3565***, -0.2106*, 0.4066***, 0.6412***, -0.1520., 0.3573***, 0.5594***, 0.1590). The fried chicken images led people to choose the red plate more often by 36%. Fried rice caused a 21% lower chance people would pick the red plate option. The pasta category created a 41% higher chance the red plate option would be picked, while salad, steak, and sushi led to their red plate option being more likely chosen 64%, 36%, and 56% of the time. We only reported the variable with high significance levels ranging from a 90% confidence to 99% confidence. All heterogeneous treatment effects had a high significance level except Taco.
+For the heterogeneous treatment effect, if people took the treatment survey and were shown a specific food category, the treatment effects are as follows: (-0.1775., 0.3565***, -0.2106*, 0.4066***, 0.6412***, -0.1520., 0.3573***, 0.5594***, 0.1590). The fried chicken images led people to choose the red plate more often by 36%. Fried rice caused a 21% lower chance people would pick the red plate option. The pasta category created a 41% higher chance the red plate option would be picked, while salad, steak, and sushi led to their red plate option being more likely chosen 64%, 36%, and 56% of the time. We only reported the variables with high significance levels ranging from a 90% confidence to 99% confidence. All heterogeneous treatment effects had a high significance level except Tacos.
 
 
 # Limitations
 ### Sample Size 
 One limitation to our regressions would be our sample size. Our sample only consisted of 178 survey results. This is not nearly enough observations to determine a trend on a larger scale so our statistical power is very low. Our probability of rejecting the null when there is a true treatment effect of some size is substantially low.
 ### Selection Bias
-We gave out the survey through social media on Thursday and Friday. So for those who were not able to use social media on those two days would not see our survey. The short time on experiment caused selection bias. Also, the age of our observations are primarily 16-25, which caused selection bias although it was well randomized. 
+We gave out the survey through social media on Thursday and Friday. So those who were not able to use social media on those two days would not see our survey. The short experiment duration caused selection bias. Also, the age of our participants are primarily 16-25, which caused selection bias although it was well randomized. 
 ### Design of survey
-From pre-experiment check, we found different dishes are also statistically significant. It is related to choice preference as well. It is hard to figure out whether the different dishes or choice preference exactly affect the outcome. To improve this, we could add one more treatment arm in our experiment.
+From the pre-experiment check, we found different images of the food are also statistically significant. It is related to position preference as well. It is hard to figure out whether the different images or position preference exactly affect the outcome. 
 ### country not well randomized
 The method we used for our experiment is simple randomization. This works for most observations, which are from Asia, North America and Europe. However, it was not well randomized due to the few observations from Australia and New Zealand. 
 
 # Conclusion
 ### Suggestions for restaurant advertisement
-As a result, our group will suggest restaurant to use white plate on their advertisement especially for dumpling, fried rice and salmon. Also, strongly recommend restaurants in Asia to use white plate since it has the most significant differences and shows that people in Asia have a strong preference for white plates.  
+As a result, our group will suggest restaurants to use white plates on their advertisements especially for dumpling, fried rice and salmon. Also, we strongly recommend restaurants in Asia to use white plate since it has the most significant differences and shows that people in Asia have a strong preference for white plates. Lastly, our main age group is people ages 16-25, so we strongly recommend the restaurants that want to attract young people follow our suggestions.
+
 
 
 
